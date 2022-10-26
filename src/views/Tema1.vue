@@ -43,25 +43,31 @@
               .col-12.col-lg-5
                 p.mb-3 Integración de una cantidad adecuada de componentes agrícolas, pecuarios y forestales.           
               .col-lg-7
-                img(src="@/assets/curso/images/tema1/img_2.png").mb-3
+                img(src="@/assets/curso/images/tema1/img_3.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 p.mb-3 Conservación de la base de recursos naturales involucrados en la producción agropecuaria, especialmente, suelo y agua.
               .col-lg-7
-                img(src="@/assets/curso/images/tema1/img_3.png").mb-3
+                img(src="@/assets/curso/images/tema1/img_4.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 p.mb-3 Conservación y promoción de la biodiversidad y la agrobiodiversidad.
               .col-lg-7
-                img(src="@/assets/curso/images/tema1/img_4.png").mb-3
+                img(src="@/assets/curso/images/tema1/img_5.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 p.mb-3 Aprovechamiento de procesos naturales en el ecosistema, por ejemplo, relaciones simbióticas en el suelo, alelopatías, control biológico, entre otros, que prestan ventajas a los procesos productivos.
               .col-lg-7
-                img(src="@/assets/curso/images/tema1/img_5.png").mb-3
+                img(src="@/assets/curso/images/tema1/img_6.png").mb-3
+
+            .row.justify-content-center.align-items-star.p-3
+              .col-12.col-lg-5
+                p.mb-3 Establecimiento de cultivos multiestratificados, que generen condiciones de microclima y protejan el suelo.
+              .col-lg-7
+                img(src="@/assets/curso/images/tema1/img_new.jpg").mb-3
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
@@ -133,12 +139,19 @@
     #t_1_1.titulo-segundo
       .h2 1.1  Objetivos, metas y límites
 
-    .row.justify-content-center.align-items-center.d-none.d-lg-block           
+    .row.justify-content-center.align-items-center.d-none.d-lg-block.mb-3           
       .col-lg
         .custom_box_left-3(data-aos="fade-left") 
           p.mb-3 El objetivo del diseño agroecológico es integrar los componentes productivos con el fin de incrementar la eficiencia biológica del agroecosistema y procurar el mantenimiento de la capacidad productiva y de autosuficiencia del agroecosistema.
           p.mb-0 Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
+          
+    .row.align-items-center.justify-content-center
+      .col-lg-4
+        .jumbotron.p-1
+            h3.text-center.text-white Diseños agroecológicos 
+        h3.text-center Objetivos - metas - límites
 
+            
     .row.align-items-center.justify-content-center.my-5.d-none.d-lg-block.mb-5
       .col-lg-12(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/fig_3.png').mb-3

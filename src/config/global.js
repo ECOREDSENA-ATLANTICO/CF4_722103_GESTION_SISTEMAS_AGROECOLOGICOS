@@ -98,7 +98,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Metodología para la evaluación de sistemas de manejo ',
+            titulo:
+              'Metodología para la evaluación de sistemas de manejo incorporando indicadores de sostenibilidad',
             hash: 't_3_2',
           },
           {
@@ -219,27 +220,27 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Agrobiodiversidad o diversidad agrícola: ',
+      termino: 'Agrobiodiversidad o diversidad agrícola',
       significado:
         'es un tipo de diversidad que nace de la intersección de la diversidad biológica y cultural, y que gira en torno a cuáles son los alimentos, fibras y medicinas de origen natural y cómo se producen. Así, la agrobiodiversidad engloba, por un lado, a las especies de plantas, animales, hongos y microorganismos recolectados, cultivados y domesticados para la alimentación y otros usos, así como sus parientes silvestres. Por el otro lado, incluye a los componentes que sostienen a los sistemas de producción agrícola o agroecosistemas (microorganismos del suelo, depredadores, polinizadores, etc.). En ambos casos, la agrobiodiversidad incluye la diversidad a nivel ecosistema, especie y genes.',
     },
     {
-      termino: 'Captación y aprovechamiento de agua lluvia:',
+      termino: 'Captación y aprovechamiento de agua lluvia',
       significado:
         'todo tipo de esfuerzo técnico, simple o complejo, surgido de la iniciativa del productor o desarrollado científicamente, para aumentar la cantidad de agua de lluvia que se almacena en el suelo o en estructuras construidas, de tal manera que pueda ser utilizada posteriormente bajo condiciones de déficit de lluvia.',
     },
     {
-      termino: 'Finca:',
+      termino: 'Finca',
       significado:
         'en ella se relacionan una serie de elementos ecológicos, sociales, económicos y culturales, con los que el/la productor/a desarrolla su proyecto de vida y el de su familia. Desde el enfoque agroecológico, es entendido como un agroecosistema.',
     },
     {
-      termino: 'Predio:',
+      termino: 'Predio',
       significado:
         'es la unidad básica del sistema de producción agropecuaria.',
     },
     {
-      termino: 'Restauración ecológica:',
+      termino: 'Restauración ecológica',
       significado:
         'se define como el proceso de asistir la recuperación de un ecosistema que ha sido degradado, dañado o destruido, tomando como marco de referencia la sucesión vegetal. En la agricultura, se habla de una degradación consecuencia del cambio de uso del suelo o como un proceso que recupera y mejora la funcionalidad de un ecosistema dentro de paisajes conformados por tierras en producción agrícola y áreas de conservación.',
     },
@@ -294,7 +295,7 @@ export default {
       },
       {
         nombre: 'Ingrid Natalia Lozano Muñoz',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
       {
@@ -305,7 +306,7 @@ export default {
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesora Metodológica',
+        cargo: 'Asesora metodológica',
         centro: 'Centro de Diseño y Metrología  - Distrito Capital',
       },
       {

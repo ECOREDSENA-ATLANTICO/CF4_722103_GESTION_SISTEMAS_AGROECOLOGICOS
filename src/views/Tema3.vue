@@ -95,7 +95,7 @@
     Separador
 
     #t_3_2.titulo-segundo
-      .h2 3.2   Metodología para la evaluación de sistemas de manejo 
+      .h2 3.2   Metodología para la evaluación de sistemas de manejo incorporando indicadores de sostenibilidad
 
     .row.align-items-center.justify-content-center.mb-5     
       .col-lg-7(data-aos="fade-right") 
@@ -256,12 +256,12 @@
         caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Alfonzo et al. (2008). 
         thead(style="border:0")
           tr(style="background-color:#60876C;")
-            th.text-center.text-white(style="font-size:18px;border:0;") Atributos
-            th.text-center.text-white(style="font-size:18px;border:0;") Indicador
-            th.text-center.text-white(style="font-size:18px;border:0;") Descripción
+            th.text-center.text-white(style="font-size:18px;border:2;") Atributos
+            th.text-center.text-white(style="font-size:18px;border:2;") Indicador
+            th.text-center.text-white(style="font-size:18px;border:2;") Descripción
         tbody
           tr(style="background-color:#fff;")
-            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Productividad
+            td.p-4.h5.text-center(style="border-left:2;" rowspan="4") Productividad
           tr(style="background-color:#fff;")
             td.p-4 Eficiencia en el sistema productivo.
             td.p-4 Relación entre los productos resultantes y los insumos empleados en un determinado proceso productivo (E=B/C).
@@ -272,7 +272,7 @@
             td.p-4 Uso potencial de la tierra.
             td.p-4 Relación de la superficie utilizada con la utilizable 100 [UP=(SU/U)x100].
           tr(style="background-color:#fff;")
-            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Estabilidad
+            td.p-4.h5.text-center(style="border-left:2;" rowspan="4") Estabilidad
           tr(style="background-color:#fff;")
             td.p-4 Independencia de insumos externos.
             td.p-4 % costos de producción de origen externo.
@@ -283,7 +283,7 @@
             td.p-4 Fertilidad del suelo.
             td.p-4 Macronutrientes. 
           tr(style="background-color:#fff;")
-            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Equidad
+            td.p-4.h5.text-center(style="border-left:2;" rowspan="4") Equidad
           tr(style="background-color:#fff;")
             td.p-4 Distribución del ingreso.
             td.p-4 % de asignación de los ingresos.
@@ -296,7 +296,7 @@
             td.p-4.h5.text-center Adaptabilidad
             td.p-4 Índices de diversidad de especies cultivadas.
           tr(style="background-color:#fff;")
-            td.p-4.h5.text-center(style="border-left:0;" rowspan="4") Autogestión
+            td.p-4.h5.text-center(style="border-left:2;" rowspan="4") Autogestión
           tr(style="background-color:#fff;")
             td.p-4 Autosuficiencia alimentaria.
             td.p-4 % de alimentos consumidos que son producidos en el predio.
