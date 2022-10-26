@@ -172,7 +172,7 @@
               p.mb-1.text-white Para ampliar la información relacionada con los 10 elementos de la agroecología, observe el siguiente video:
               p.text-white.mb-0 Nota. Tomada de Food and Agriculture Organization of the United Nations (2022).
             .col-md-auto
-              a.boton(:href="('https://www.youtube.com/watch?v=xGC5B_-Nj-Y')" target="_blank")
+              a.boton(:href="('https://www.youtube.com/watch?v=6Reh7c2-ewI')" target="_blank")
                 span Ver video
       
     .row.align-items-center.justify-content-center.mb-5     
@@ -333,7 +333,7 @@
     .row.justify-content-center.align-items-center.mt-5
       figure.mb-5(data-aos="fade-right")
           .video
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/uvmXsplyyKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xPZWkSDk48o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     .row.mb-5
       .col-lg-12
