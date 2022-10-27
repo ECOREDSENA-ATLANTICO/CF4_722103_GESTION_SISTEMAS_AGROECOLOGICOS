@@ -289,7 +289,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo de Diseño Instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -357,7 +357,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: '',
+        nombre: 'Yuli Marcela Gómez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
