@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Planeación del agroecosistema con enfoque agroecológico',
     descripcionCurso:
-      'En este componente, se conocerán las herramientas y elementos esenciales para ser implementados en la unidad productiva e iniciar un proceso de reconversión hacia la producción agroecológica y entender la importancia de los procesos de planificación y manejo agroecológicos que mejorarán la productividad.',
+      'En este componente, se conocerán las herramientas y elementos esenciales para ser implementados en la unidad productiva e iniciar un proceso de reconversión hacia la producción agroecológica y entender la importancia de los procesos de planificación y manejo agroecológicos que mejorarán la productividad',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
     imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
