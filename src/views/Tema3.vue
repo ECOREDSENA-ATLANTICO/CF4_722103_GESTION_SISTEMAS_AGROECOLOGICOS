@@ -10,9 +10,9 @@
     p.mb-5 El manejo agroecológico parte del reconocimiento de las interacciones e interrelaciones socioambientales; además, considera criterios sistémicos en el manejo, como forma de gestión de un modelo multidimensional agrícola, para lo cual se deben tener en cuenta:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5.lg-0
-        .jumbotron-4.p-5(data-aos="fade-right") 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-5.mb-lg-0.mb-3
+        .jumbotron-4.h-100.p-5(data-aos="fade-right") 
             .col-5.col-lg-10
             img.mb-4(src='@/assets/curso/images/tema3/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Modelos de desarrollo agroecológicos: 
@@ -28,7 +28,7 @@
                 | Optimización de los recursos naturales de uso agrícola.
 
       .col-lg-5.lg-0
-        .jumbotron-3.p-5(data-aos="fade-left")
+        .jumbotron-3.h-100.p-5(data-aos="fade-left")
             .col-5.col-lg-10
             img(src='@/assets/curso/images/tema3/ico_2.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Objetivos de producción: 
@@ -57,7 +57,7 @@
       .col-lg-12
         .bg_3.p-4.pb-0
           .row.justify-content-center.align-items-center
-            .col-lg-5.mb-4.mb-lg-0
+            .col-8.col-lg-5.mb-4.mb-lg-0
               figure
                 img(src='@/assets/curso/images/tema3/img_1.svg')
             .col-lg-7
@@ -87,6 +87,10 @@
 
     p.mb-3 Los indicadores se construyen por medio de la evaluación de agroecosistemas reales, así:
 
+    .row.align-items-center.justify-content-center.mb-3
+      .col-lg-8(data-aos="fade-left") 
+        .jumbotron-8.p-2 
+          h3.text-white.text-center CRONOGRAMA Y ACTIVIDADES DE MANEJO AGROECOLÓGICO 
 
     .row.align-items-center.justify-content-center.fondo-9.my-5
       .col-lg-10(data-aos="fade-left") 
@@ -105,12 +109,12 @@
         img(src='@/assets/curso/images/tema3/img_2.png'  alt='')
 
     .row.justify-content-center.align-items-center.my-3
-      .col-7.col-lg-12
+      .col-12.col-lg-12
         SlyderF.slyder-color.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in-down")
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema3/ico_3.svg',  alt='', style="width:200px; display:block; margin:auto 0 ;")
-                .p-3
+                .p-4
                   h4.text-center.mb-0 Es relativista
                   p.text-center.mt-3  Porque establece los límites del sistema a estudiar y un horizonte temporal de evaluación, especificando los actores y sus objetivos particulares.
             .tarjeta.tarjeta_grey-1
@@ -128,7 +132,7 @@
             .tarjeta.tarjeta_grey-1
               .row.justify-content-center.align-items-center
                 img.mt-3(src='@/assets/curso/images/tema3/ico_5.svg',  alt='', style="width:200px; display:block; margin:auto 0 ;")
-                .p-3 
+                .p-4
                   h4.text-center.mb-0 Posee un enfoque sistémico e integrador
                   p.text-center.mt-3 Ya que entiende el sistema agrícola como un conjunto de subsistemas que se interrelacionan y actúan como una unidad de producción sustentable o potencialmente sustentable.
             .tarjeta.tarjeta_grey-1
@@ -178,13 +182,13 @@
                 td 
                   ul.lista-ul--color
                     li 
-                      i.fas.fa-circle
+                      i.fas.fa-circle.th-6
                       | Estabilidad
                     li 
-                      i.fas.fa-circle
+                      i.fas.fa-circle.th-6
                       | Confiabilidad
                     li 
-                      i.fas.fa-circle
+                      i.fas.fa-circle.th-6
                       | Resiliencia
                 td 
                   ul.lista-ul--color
@@ -250,7 +254,7 @@
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Tabla 5
       span  Indicadores asociados al modelo de desarrollo agroecológico
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.m-top.mb-0.cs
+  
     .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
       table
         caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Alfonzo et al. (2008). 
@@ -306,12 +310,12 @@
           tr(style="background-color:#fff;")
             td.p-4 Nivel de participación comunitaria.
             td.p-4 % de asistencias a reuniones de consejos comunales.
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.m-top.mb-0.cs
     .row.align-items-center.justify-content-center.p-3
       .col-lg-12(data-aos="zoom-in-up")  
         .jumbotron-5.p-3
           p.mb-3 La medición de los indicadores se desarrolla a través de un método estadístico básico que permite establecer sus valores. Estos valores se estandarizan de acuerdo con lo establecido en la siguiente ecuación:
-          .row.align-items-center.justify-content-center.fondo-11.p-5
+          .row.align-items-center.justify-content-center.fondo-11.p-4
             .col-lg-3
               h3 Donde:
               p.mb-0 <b>ND =</b> Nivel de desempeño del indicador
@@ -319,7 +323,12 @@
               p.mb-0 <b>Vmax =</b> Valor máximo del indicador
               p.mb-0 <b>Vmin =</b> Valor mínimo del indicador
             .col-lg-5
-              img.mb-5(src='@/assets/curso/images/tema3/formula.svg')
+              img.mt-2(src='@/assets/curso/images/tema3/formula.svg')
+          .row.align-items-center.justify-content-center.mb-5
+            .col-lg-11
+              .jumbotron-9.p-2
+                p.mb-0 Nota. Tomada de Alfonzo et al. (2008).
+
               
  
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
@@ -377,31 +386,26 @@
     #t_3_3.titulo-segundo
       .h2 3.3  Normativa ambiental
 
-    .row.justify-content-center.align-items-center.d-none.d-lg-block.mb-3        
-      .col-lg
-        .custom_box_left-6(data-aos="fade-left") 
-          p.mb-3 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
     
-    .row.mb-5.d-block.d-lg-none
-      .col-lg-11
-        .tarjeta-avatar
-          .tarjeta.fondo-12
-            .p-5
-              p.mb-3 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
-              
+    .row.justify-content-center.fondo-16.mb-3.p-3
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema3/ico_new.svg', alt='').mt-3  
+      .col-lg-10
+        p.mt-5 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
+
+
     .row.align-items-center.justify-content-center
       .col-lg-11
         p.mb-3 Observe la legislación ambiental al respecto:
 
     .row.justify-content-center.align-items-center.mb-3
-      .col-lg-12
-        .tarjeta.bg_grad-01.p-4.mb-5(data-aos="zoom-in-up")
+      .col-lg-12(data-aos="zoom-in-up")
+        .tarjeta.bg_grad-01.p-4.mb-5
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 p.mb-3 Es obligación que cada productor conozca y entienda la normativa para el recurso suelo, uso, tenencia y aprovechamiento de las aguas, disposición de residuos sólidos, líquidos y material particulado que se genere del proceso productivo.
               .col-12.col-lg-7
-                img(src="@/assets/curso/images/tema3/img_4.png").mb-3
+                img.mt-3(src="@/assets/curso/images/tema3/img_4.png").mb-3
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
                 h4.mb-3 Normatividad reguladora
@@ -410,7 +414,7 @@
                 p.mb-0 3. Disposición de residuos sólidos, líquidos y material particulado que se genere del proceso productivo.
         
               .col-lg-7
-                img(src="@/assets/curso/images/tema3/img_5.png").mb-3
+                img.mt-3(src="@/assets/curso/images/tema3/img_5.png").mb-3
 
             .row.justify-content-center.align-items-star.fondo-13.p-3
               .row.align-items-center.justify-content-center.mb-5
@@ -422,6 +426,7 @@
                         .row.justify-content-center.align-items-center
                           h3.text-center.mt-3 Artículo 7:
                           p.text-center.mb-5 Hace reconocimiento expreso de la pluralidad étnica y cultural de la Nación, así como del deber del Estado para su protección.
+                img(src='@/assets/curso/images/tema3/line.svg',  alt='', style="width:27px; display:block; margin:auto 0 ;").d-none.d-lg-block
                 .col-lg-5.lg-0
                   .jumbotron-6.p-5(data-aos="fade-left")
                       .col-12.col-lg-10
@@ -441,6 +446,7 @@
                         .row.justify-content-center.align-items-center
                           h3.text-center.mt-3 Artículo 49:
                           p.text-center.mb-4 Consagra como servicio público la atención de la salud y el saneamiento ambiental, y ordena al Estado la organización, dirección y reglamentación de los mismos.
+                img(src='@/assets/curso/images/tema3/line.svg',  alt='', style="width:27px; display:block; margin:auto 0 ;").d-none.d-lg-block
                 .col-lg-5.lg-0
                   .jumbotron-6.p-5(data-aos="fade-left")
                       .col-12.col-lg-10
@@ -461,6 +467,7 @@
                         .row.justify-content-center.align-items-center
                           h3.text-center.mt-3 Artículo 63:
                           p.text-center.mb-0 Determina que los bienes de uso público, los parques naturales, las tierras comunales de grupos étnicos y los demás bienes que determine la Ley son inalienables, imprescriptibles e inembargables.
+                img(src='@/assets/curso/images/tema3/line.svg',  alt='', style="width:27px; display:block; margin:auto 0 ;").d-none.d-lg-block
                 .col-lg-5.lg-0
                   .jumbotron-6.p-5(data-aos="fade-left")
                       .col-12.col-lg-10
@@ -480,6 +487,7 @@
                         .row.justify-content-center.align-items-center
                           h3.text-center.mt-3 Artículo 80:
                           p.text-center.mb-4 Establece como deber del Estado   la planificación del manejo y aprovechamiento de los recursos naturales, para garantizar su desarrollo sostenible.
+                img(src='@/assets/curso/images/tema3/line.svg',  alt='', style="width:27px; display:block; margin:auto 0 ;").d-none.d-lg-block
                 .col-lg-5.lg-0
                   .jumbotron-6.p-5(data-aos="fade-left")
                       .col-12.col-lg-10
@@ -500,6 +508,7 @@
                         .row.justify-content-center.align-items-center
                           h3.text-center.mt-3 Artículo 95:
                           p.text-center.mb-5 Establece como deber de las personas la protección de los recursos culturales y naturales del país, así como de velar por la conservación de un ambiente sano.
+                img(src='@/assets/curso/images/tema3/line.svg',  alt='', style="width:27px; display:block; margin:auto 0 ;").d-none.d-lg-block
                 .col-lg-5.lg-0
                   .jumbotron-6.p-5(data-aos="fade-left")
                       .col-12.col-lg-10

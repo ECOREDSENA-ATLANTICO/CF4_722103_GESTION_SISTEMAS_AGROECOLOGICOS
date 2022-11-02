@@ -7,23 +7,16 @@
         span 1
       h1 Diseño agroecológico
 
-    .row.d-none.d-lg-block.mb-5
-      .row.fondo-1.mb-0
-        .col-lg-7.mb-3.mb-lg-0.p-5(style="place-self:center")
-          p.mb-0.mx-5.mt-3 El diseño agroecológico nace como una alternativa tecnológica para el manejo de los recursos naturales, que incorpora las acciones sociales colectivas de carácter participativo, que facilita el diseño del sistema agroalimentario sostenible y permite disminuir los impactos negativos de la crisis ecológica y social de la agricultura campesina en diferentes regiones. Por lo tanto, se deben tener en cuenta los siguientes criterios técnicos:
 
-        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
-          figure.text-center
-            img.mt-4(src="@/assets/curso/images/tema1/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
+    .row.fondo-1.mb-0
+      .col-lg-7.mb-3.mb-lg-0.p-5(style="place-self:center")
+        p.mb-0.mx-5.mt-3 El diseño agroecológico nace como una alternativa tecnológica para el manejo de los recursos naturales, que incorpora las acciones sociales colectivas de carácter participativo, que facilita el diseño del sistema agroalimentario sostenible y permite disminuir los impactos negativos de la crisis ecológica y social de la agricultura campesina en diferentes regiones. Por lo tanto, se deben tener en cuenta los siguientes criterios técnicos:
 
-    .row.d-block.d-lg-none
-      .row.mb-0
-        .col-12.col-lg-7.mb-3.mb-lg-0.p-2(style="place-self:center")
-          p.mb-0 El diseño agroecológico nace como una alternativa tecnológica para el manejo de los recursos naturales, que incorpora las acciones sociales colectivas de carácter participativo, que facilita el diseño del sistema agroalimentario sostenible y permite disminuir los impactos negativos de la crisis ecológica y social de la agricultura campesina en diferentes regiones. Por lo tanto, se deben tener en cuenta los siguientes criterios técnicos:
-        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
-          figure.text-center
-            img.mt-4(src="@/assets/curso/images/tema1/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:320px;")
+      .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
+        figure.text-center
+          img.mt-4(src="@/assets/curso/images/tema1/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
 
+    
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-4
         .jumbotron.p-1
@@ -67,7 +60,7 @@
               .col-12.col-lg-5
                 p.mb-3 Establecimiento de cultivos multiestratificados, que generen condiciones de microclima y protejan el suelo.
               .col-lg-7
-                img(src="@/assets/curso/images/tema1/img_new.jpg").mb-3
+                img(src="@/assets/curso/images/tema1/img_new.png").mb-3
 
             .row.justify-content-center.align-items-star.p-3
               .col-12.col-lg-5
@@ -94,7 +87,7 @@
                 img(src="@/assets/curso/images/tema1/img_10.png").mb-3
 
     .jumbotron-1.p-3.mb-5
-      p.mb-4 El diseño parte del diagnóstico del estado inicial de los recursos bióticos y abióticos presentes en la unidad productiva, como medio que permita la correcta planificación y manejo de los recursos, con el fin de disminuir los riesgos de tener bajos índices de producción y eficiencia asociados al proceso productivo. 
+      p.mb-0 El diseño parte del diagnóstico del estado inicial de los recursos bióticos y abióticos presentes en la unidad productiva, como medio que permita la correcta planificación y manejo de los recursos, con el fin de disminuir los riesgos de tener bajos índices de producción y eficiencia asociados al proceso productivo. 
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
@@ -147,7 +140,7 @@
           
     .row.align-items-center.justify-content-center
       .col-lg-4
-        .jumbotron.p-1
+        .jumbotron.p-1.mb-3
             h3.text-center.text-white Diseños agroecológicos 
         h3.text-center Objetivos - metas - límites
 
@@ -165,41 +158,63 @@
     #t_1_2.titulo-segundo
       .h2 1.2  Influencia de ecosistemas adyacentes
 
+    .row.justify-content-center.fondo-14.mb-0
+      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_new.svg', alt='')  
+      .col-lg-10
+        p.mb-3.m-top-6 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
+        p.mb-0 Se  muestra la integración de los componentes, así:
 
-    .row.justify-content-center.align-items-center.d-none.d-lg-block           
-      .col-lg
-        .custom_box_left-2(data-aos="fade-left") 
-          p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
-          p.mb-0 Se  muestra la integración de los componentes, así:
-
-  
-    .row.mb-5.d-block.d-lg-none
-      .col-lg-11
-        .tarjeta-avatar
-          .tarjeta.fondo-3
-            .p-5
-              p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
-              p.mb-0 Se  muestra la integración de los componentes, así:
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top.mb-0.cs
     .row.align-items-center.justify-content-center.my-5.d-none.d-lg-block.mb-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/info.png').mb-3
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+          img(src='@/assets/curso/images/tema1/info.svg').mb-3
+
+    
+    .row.d-none.d-lg-block
+      .row.align-items-center.justify-content-center.mb-5
+          .col-lg-4
+            hr.t 
+            .jumbotron.p-1
+                h3.text-center.text-white Como resultado genera
+            hr.t
+
+    .row.d-none.d-lg-block
+      .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+        .col-7.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_1.svg').mb-3
+            .jumbotron-7.p-3
+              p.mb-0 EFICIENCIA  BIOLÓGICA
+        .col-7.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_2.svg').mb-2
+            .jumbotron-7.p-3
+              p.mb-0 AUTORREGULACIÓN DEL AGROECOSISTEMA
+
+        .col-7.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_3.svg').mb-4
+            .jumbotron-7.p-3
+              p.mb-0 MANTENIMIENTO DE LA CAPACIDAD PRODUCTIVA
+        
+        .col-7.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_4.svg').mb-2
+            .jumbotron-7.p-3
+              p.mb-0 PRESERVAR LA BIODIVERSIDAD
+
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top.mb-0.cs
     .row.align-items-center.justify-content-center.my-5.d-block.d-lg-none
       .col-lg-12(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/info_movil.png').mb-3
-  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
+  .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs
 
-    .row.align-items-center.justify-content-star.my-5.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.ps-2.mb-5(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
         .h4.mx-3.mb-0 Arreglos productivos y zonificación
 
     .row.align-items-center.justify-content-center.mb-5
-      .col-5.col-lg-2(data-aos="fade-right") 
-        img(src='@/assets/curso/images/tema1/img_12.svg'  alt='')
+      .col-auto(data-aos="fade-right") 
+        img(src='@/assets/curso/images/tema1/img_12.svg' alt='', style="width:150px; display:block; margin:auto 0 ;")
       .col-lg-10(data-aos="fade-left")
         p.mb-3 Según la FAO, una zonificación agroecológica permite la evaluación de la aptitud y productividad potencial, así como de los recursos presentes en el territorio; y esta información suministra las bases para poder evaluar la degradación del suelo y de la capacidad de sostenimiento de la población, así como planificar y diseñar los modelos de producción ganadera y de optimización de usos de suelo en el territorio.
 
@@ -208,24 +223,24 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
         .row.justify-content-center.align-items-star
-          .col-4-md-4.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar.text-center
-              img.a-1(src='@/assets/curso/images/tema1/ico_slyder_1.svg',  alt='', style="width:250px; display:block; margin:auto 0 ;")
-              .tarjeta.color-custom
-                .p-5
-                  p.a Inventario de recursos del territorio.
-          .col-4-md-4.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar.text-center
-              img.a-1(src='@/assets/curso/images/tema1/ico_slyder_2.svg',  alt='', style="width:250px; display:block; margin:auto 0 ;")
-              .tarjeta.color-custom
-                .p-5
-                  p.a Inventario de tipos de utilización del territorio y requerimientos de la plantación.
-          .col-4-md-4.col-lg.mb-5.mb-lg-0
-            .tarjeta-avatar.text-center
-              img.a-1(src='@/assets/curso/images/tema1/ico_slyder_3.svg',  alt='', style="width:250px; display:block; margin:auto 0 ;")
-              .tarjeta.color-custom
-                .p-5
-                  p.a  Evaluación de la aptitud del territorio, incluyendo el cálculo de la cosecha máxima posible y la comparación entre limitaciones y requerimientos.
+          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-5
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_1.svg')
+            .bg-1.h-100.py-0.m-top-3
+              .p-4
+                p.mb-0.text-center.m-top-5 Inventario de recursos del territorio.
+          
+          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-3
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_2.svg')
+            .bg-1.h-100.py-0.m-top-3
+              .p-4
+                p.mb-0.text-center.m-top-5  Inventario de tipos de utilización del territorio y requerimientos de la plantación.
+
+          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-3
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_3.svg')
+            .bg-1.h-100.py-0.m-top-3
+              .p-4
+                p.mb-0.text-center.m-top-4 Evaluación de la aptitud del territorio, incluyendo el cálculo de la cosecha máxima posible y la comparación entre limitaciones y requerimientos.
+          
     .row.mb-5
       .col-lg-12
         .jumbotron-2.p-2

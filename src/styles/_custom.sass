@@ -1,14 +1,4 @@
 .banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 55%
-    right: 73%
-  &-2
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 14%
-    right: 15%
   &-3
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
@@ -103,10 +93,15 @@
   background-color: #fff !important
 
 .th-4
-  color: #ADCE32 !important
+  color: #DEEBAD !important
+  font-size: 12px
 
 .th-5
   background-color: #DEEBAD !important
+
+.th-6
+  color: #FFD3C3 !important
+  font-size: 12px
 
 .m-left-2
   margin-left: 80px !important
@@ -121,7 +116,13 @@
   justify-content: center
 
 .m-top
-  margin-top: -70px
+  margin-top: -80px
+  @media (max-width: 768px)
+    margin-top: -100px
+  @media (max-width: 576px)
+    margin-top: -70px
+  @media (max-width: 412px)
+    margin-top: -70px
 
 .m-top-1
   margin-top: -40px
@@ -129,10 +130,40 @@
 .m-top-2
   margin-top: 20px
 
+.m-top-3
+  margin-top: -180px
+
+.m-top-4
+  margin-top: 170px
+
+.m-top-5
+  margin-top: 200px
+
+.m-top-6
+  margin-top: 65px
+.t
+  color: #CC846B
+
+td, th 
+  border: 1px solid #0B481E
+  padding: 0.75em
+
+.tabla-a th 
+  border-color: #0B481E
+  font-weight: 700
+  text-align: center
+  font-size: 1.125em
+
+
 .fondo-1
   background-image: url("../assets/curso/images/tema1/jb_1.svg") !important
-  background-repeat: no-repeat !important
-  background-size: contain
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none !important
+    background-color: #DEEBAD 
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
 
 .fondo-2
   background-image: url('../assets/curso/images/tema1/back_fig_2.svg')
@@ -191,8 +222,13 @@
 
 .fondo-7
   background-image: url("../assets/curso/images/tema2/back_new.svg") !important
-  background-repeat: no-repeat !important
-  background-size: contain
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none !important
+    background-color: #DEEBAD 
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
 
 .fondo-8
   background-image: url("../assets/curso/images/tema2/jb_3.svg") !important
@@ -222,12 +258,19 @@
 .fondo-10
   background-image: url("../assets/curso/images/tema3/back_3.svg") !important
   background-repeat: no-repeat !important
-  background-size: contain
+  background-size: cover
 
 .fondo-11
   background-image: url("../assets/curso/images/tema3/back_form.svg") !important
-  background-repeat: no-repeat !important
-  background-size: cover
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none !important
+    background-color: #E5EFD4
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 100%
+  
+  
 
 .fondo-12
   background-image: url("../assets/curso/images/tema3/jb_2.svg") !important
@@ -250,13 +293,44 @@
     margin-left: 40px
 
 .fondo-13
-  background-image: url("../assets/curso/images/tema3/back_slyder.svg") !important
+  background-color: #ECEAEA !important
+  border-radius: 30px !important
+  @media (max-width: 992px)
+    height: 100% !important
+  @media (max-width: 768px)
+    width: auto !important
+    height: auto !important
+  @media (max-width: 576px)
+    background-repeat: no-repeat
+    height: auto !important
+  @media (max-width: 412px)
+    height: auto !important
+  
+
+.fondo-14
+  background-image: url("../assets/curso/images/tema1/back_responive.destacado.svg") !important
   background-repeat: no-repeat !important
   background-size: contain
-  @media (max-width: 412px)
-    background-repeat: no-repeat
-    background-image: none !important
 
+.fondo-15
+  background-image: url("../assets/curso/images/tema2/jb_1.svg") !important
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none !important
+    background-color: #DEEBAD 
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
+
+.fondo-16
+  background-image: url("../assets/curso/images/tema2/back_new_1.svg") !important
+  background-repeat: no-repeat
+  background-size: 40% 100%
+  @media (max-width: $bp-max-md) 
+    background-image: none !important
+    background-color: #FFE9E1
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    background-size: 100% 98%
 
 .bg_grad-01
   background-color: #EFF5D6
@@ -273,6 +347,9 @@
     margin-left: 2px
   @media (max-width: 412px)
     margin-left: -2px !important
+    background-repeat: no-repeat
+    background-size: contain
+    height: auto
   @media (max-width: 390px)
     margin-left: -5px !important
 
@@ -433,6 +510,44 @@
   background-color: #F6F6F6
   box-shadow: 2px 0.5px 4px 1px #cdcdcd
   margin-top: 30px
+  
+
+.jumbotron-7 
+  background-color: #C9D0AF
+  border-top-left-radius:  20px
+
+.jumbotron-8
+  background-color: #0B481E
+  border-radius: 20px
+.bg-1
+  background-color: #CEE284
+  border-radius: 20px !important
+  height: 310px !important
+  @media (max-width: 992px)
+    background-repeat: no-repeat
+    background-size: contain
+    height: 100% !important
+  @media (max-width: 768px)
+    background-repeat: no-repeat
+    background-repeat: no-repeat
+    height: auto !important
+  @media (max-width: 576px)
+    background-repeat: no-repeat
+    height: auto !important
+  @media (max-width: 412px)
+    background-repeat: no-repeat
+    background-repeat: no-repeat
+    height: auto !important
+
+.jumbotron-9
+  background-color: #F6F6F6
+  width: 966px
+  @media (max-width: $bp-max-md) 
+    width: 465px
+    margin-left: -10px !important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: 822px
+    margin-left: -45px !important
 
 .bg_3
   background-color: #F3F9FF
@@ -445,10 +560,14 @@
   transform: translateY(-50%) rotate(-90deg)
   right: -5px
 
-.slyder-a__bullets__item
-   background-color: #ADCE32 !important
-.slyder-a__bullets__item--active
-   background-color: #ADCE32!important
+.slyder-a__bullets__item--active 
+    background-color: #ADCE32
+    border: 0    
+
+.slyder-a__bullets__item 
+    background-color: #D7E79C
+    border: 0
+
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: 810px)
@@ -472,14 +591,6 @@
     height: 10px  
     margin: 0 3px     
     
-.slyder-a__bullets__item--active
-  background-color: #ADCE32 !important
-  border: 1px solid #ADCE32 !important
-.slyder-a__btn--sigt, .slyder-a__btn--atrs
-  background-color: #F4F4F5
-.slyder-a__bullets__item
-  background-color: #D7E899 !important
-  border: 1px solid #ADCE32 !important
 
 // CUSTOM BOX - LEFT-2
 .custom_box_left-2     
