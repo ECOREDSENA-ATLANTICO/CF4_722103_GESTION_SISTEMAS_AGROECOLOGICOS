@@ -156,18 +156,19 @@ td, th
 
 
 .fondo-1
-  background-image: url("../assets/curso/images/tema1/jb_1.svg") !important
+  background-color:  #E0E8E2 !important
+  background-image: url('../assets/curso/images/tema1/jb_1.svg')
   background-repeat: no-repeat
-  background-size: 100% 100%
+  background-size: 100% 100% !important
   @media (max-width: $bp-max-md) 
     background-image: none !important
-    background-color: #DEEBAD 
+    background-color: #E0E8E2
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
     background-size: 100% 98%
 
 .fondo-2
-  background-image: url('../assets/curso/images/tema1/back_fig_2.svg')
-  background-size: cover
+  background-image: url('../assets/curso/images/tema1/back_fig_2.png')
+  background-size: auto !important
   background-repeat: no-repeat
 
 .fondo-3
@@ -331,6 +332,13 @@ td, th
     background-color: #FFE9E1
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
     background-size: 100% 98%
+
+.fondo-17
+  background-image: url("../assets/curso/images/tema1/back_movil.png") !important
+  background-repeat: no-repeat !important
+  background-size: cover
+
+
 
 .bg_grad-01
   background-color: #EFF5D6
@@ -514,7 +522,10 @@ td, th
 
 .jumbotron-7 
   background-color: #C9D0AF
+  box-shadow: 2px 4px 8px #cdcdcd
   border-top-left-radius:  20px
+  height: 90px !important
+
 
 .jumbotron-8
   background-color: #0B481E
@@ -561,11 +572,11 @@ td, th
   right: -5px
 
 .slyder-a__bullets__item--active 
-    background-color: #ADCE32
+    background-color: #ADCE32 
     border: 0    
 
 .slyder-a__bullets__item 
-    background-color: #D7E79C
+    background-color: #ADCE32
     border: 0
 
 
@@ -745,3 +756,25 @@ td, th
 .tabla-a thead 
   color: #000
   border-top: none !important
+
+.contenedor-hojas
+  position: relative
+  &::before
+    position: absolute
+    content: url(../assets/curso/images/tema1/jb_1.svg)
+    top: 0
+    left: 0
+    transform: translate(2%, -50%)
+
+.contenedor-fondo
+  position: relative
+  &__franja
+    position: absolute
+    left: 5px
+    top: 0px
+    width: 50%
+    height: 80%
+    z-index: 0
+  &__contenido
+    z-index: 1
+    position: relative

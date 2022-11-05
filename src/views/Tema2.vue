@@ -7,14 +7,18 @@
         span 2
       h1 Plan de manejo agroecológico
 
-    .row.fondo-15.mb-3
-      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-5.mt-3.p-2 Como el proceso de transición hacia la agroecología es un proceso de alta complejidad, que no solo implica el cambio de las prácticas del agroecosistema, sino que articula cambios a diferentes escalas, partiendo de la finca, la comunidad local, el territorio y del sistema alimentario, y que puede verse afectada por los factores sociales, económicos, culturales, ecológicos y políticos; por esta razón, se debe fortalecer y generar un plan de manejo, implementando diferentes herramientas de planificación.
 
-      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-4(style="place-self:center")
-        figure.text-center
-          img.mt-4(src="@/assets/curso/images/tema2/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:370px;")
-            
+    .contenedor-hojas(style='background-color: #EFF5D6').p-4.mb-5
+
+      .row.mb-0
+        .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
+          p.mb-0.mx-5.mt-3 Como el proceso de transición hacia la agroecología es un proceso de alta complejidad, que no solo implica el cambio de las prácticas del agroecosistema, sino que articula cambios a diferentes escalas, partiendo de la finca, la comunidad local, el territorio y del sistema alimentario, y que puede verse afectada por los factores sociales, económicos, culturales, ecológicos y políticos; por esta razón, se debe fortalecer y generar un plan de manejo, implementando diferentes herramientas de planificación.
+        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-1(style="place-self:center")
+          figure.text-center
+            img.mt-4(src="@/assets/curso/images/tema2/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
+
+
+
 
     Separador
 
@@ -137,7 +141,7 @@
           h5 Figura 4
           span Interacciones e interrelaciones entre los 10 elementos de la agroecología.
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.m-top.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.m-top-1.mb-0.cs
     .row.align-items-center.justify-content-center.my-5
       .col-lg-10(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema2/fig_1.svg')
@@ -255,11 +259,20 @@
                   .col-auto
                     img(src="@/assets/curso/images/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
-    .row.justify-content-center.fondo-14.mb-0.p-3
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema2/ico_new_2.svg', alt='').mt-3  
-      .col-lg-10
-        p.mt-5 Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología (ver Figura 7). Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la Figura 7, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario.
+    
 
+    .contenedor-fondo.p-3
+      .contenedor-fondo__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-3
+            figure
+              img(src="@/assets/curso/images/tema2/img_destacada_3.svg"  alt='', style="width:180px; display:block; margin:auto 0 ;").mb-2
+
+          .col-lg-8
+            p.mb-3 Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología (ver Figura 7). Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la Figura 7, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario.
+
+
+      .contenedor-fondo__franja(style='background-color: #CEDAD2')
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-10
@@ -298,14 +311,15 @@
           .jumbotron-2.p-2
             p.mb-0 Nota. Tomada de FAO (2021, p. 27-28).
 
-    .row.fondo-7.mb-3
-      .col-lg-8.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-5.mt-3.p-2 Las transiciones agroecológicas se desarrollan a diferentes escalas espaciales y temporales; por tanto, es importante visibilizar las posibilidades y limitaciones de la masificación de la agroecología, para que sea aprovechada por un número creciente de productores/as y consumidores/as, en territorios cada vez más amplios. Vea, entonces, lo que el siguiente video explica al respecto:
+    .contenedor-hojas(style='background-color: #EFF5D6').p-4.mb-5
 
-      .col-lg-4.mb-3.mb-lg-0.ps-0.pe-4(style="place-self:center")
-        figure.text-center
-          img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:370px;")
-            
+      .row.mb-0
+        .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
+          p.mb-0.mx-5.mt-3 Las transiciones agroecológicas se desarrollan a diferentes escalas espaciales y temporales; por tanto, es importante visibilizar las posibilidades y limitaciones de la masificación de la agroecología, para que sea aprovechada por un número creciente de productores/as y consumidores/as, en territorios cada vez más amplios. Vea, entonces, lo que el siguiente video explica al respecto:
+        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-1(style="place-self:center")
+          figure.text-center
+            img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
+
     
     .row.justify-content-center.align-items-center.mt-5
       figure.mb-5(data-aos="fade-right")
@@ -322,12 +336,17 @@
     #t_2_2.titulo-segundo
       .h2 2.2  Prácticas de manejo para transición o reconversión
     
+    .contenedor-fondo.p-3
+      .contenedor-fondo__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-3
+            figure
+              img(src="@/assets/curso/images/tema2/img_destacada_4.svg"  alt='', style="width:120px; display:block; margin:auto 0 ;").mb-2
 
-    .row.justify-content-center.fondo-16.mb-0.p-3
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema2/img_new_3.svg', alt='').mt-3  
-      .col-lg-10
-        p.mt-5 En la transición agroecológica, se pueden incorporar diferentes prácticas de acuerdo con el contexto del agroecosistema, por lo tanto, no existe un conjunto de prácticas que sean consideradas las únicas o exclusivas para implementar en el proceso de transición agroecológica; aunque sí existen prácticas que aplican los principios de la agroecología y estas son: 
+          .col-lg-7
+            p.mb-3.mt-3 En la transición agroecológica, se pueden incorporar diferentes prácticas de acuerdo con el contexto del agroecosistema, por lo tanto, no existe un conjunto de prácticas que sean consideradas las únicas o exclusivas para implementar en el proceso de transición agroecológica; aunque sí existen prácticas que aplican los principios de la agroecología y estas son:
 
+      .contenedor-fondo__franja(style='background-color: #FFE9E1')
     
     .row.justify-content-center.align-items-center.mt-5
       figure.mb-5(data-aos="fade-right")

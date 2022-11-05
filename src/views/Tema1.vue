@@ -6,15 +6,17 @@
       .titulo-principal__numero 
         span 1
       h1 Diseño agroecológico
+    
 
+    .contenedor-hojas(style='background-color: #E0E8E2').p-4.mb-5
 
-    .row.fondo-1.mb-0
-      .col-lg-7.mb-3.mb-lg-0.p-5(style="place-self:center")
-        p.mb-0.mx-5.mt-3 El diseño agroecológico nace como una alternativa tecnológica para el manejo de los recursos naturales, que incorpora las acciones sociales colectivas de carácter participativo, que facilita el diseño del sistema agroalimentario sostenible y permite disminuir los impactos negativos de la crisis ecológica y social de la agricultura campesina en diferentes regiones. Por lo tanto, se deben tener en cuenta los siguientes criterios técnicos:
+      .row.mb-0
+        .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
+          p.mb-0.mx-5.mt-3 El diseño agroecológico nace como una alternativa tecnológica para el manejo de los recursos naturales, que incorpora las acciones sociales colectivas de carácter participativo, que facilita el diseño del sistema agroalimentario sostenible y permite disminuir los impactos negativos de la crisis ecológica y social de la agricultura campesina en diferentes regiones. Por lo tanto, se deben tener en cuenta los siguientes criterios técnicos:
 
-      .col-lg-5.mb-3.mb-lg-0.ps-4.pe-4(style="place-self:center")
-        figure.text-center
-          img.mt-4(src="@/assets/curso/images/tema1/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
+        .col-lg-5.mb-3.mb-lg-0.ps-4.pe-1(style="place-self:center")
+          figure.text-center
+            img.mt-4(src="@/assets/curso/images/tema1/img_1.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")
 
     
     .row.align-items-center.justify-content-center.mb-5
@@ -115,7 +117,7 @@
           span   Representación gráfica del diseño agroecológico
 
     
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top-1.mb-0.cs
     .row.align-items-center.justify-content-center.my-5
       .col-lg-10(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/fig_2.png').mb-3
@@ -132,11 +134,22 @@
     #t_1_1.titulo-segundo
       .h2 1.1  Objetivos, metas y límites
 
-    .row.justify-content-center.align-items-center.d-none.d-lg-block.mb-3           
-      .col-lg
-        .custom_box_left-3(data-aos="fade-left") 
-          p.mb-3 El objetivo del diseño agroecológico es integrar los componentes productivos con el fin de incrementar la eficiencia biológica del agroecosistema y procurar el mantenimiento de la capacidad productiva y de autosuficiencia del agroecosistema.
-          p.mb-0 Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
+
+    .contenedor-fondo.p-3
+      .contenedor-fondo__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-3
+            figure
+              img(src="@/assets/curso/images/tema1/img_destacada_1.svg"  alt='', style="width:180px; display:block; margin:auto 0 ;").mb-2
+
+          .col-lg-7
+            p.mb-3 El objetivo del diseño agroecológico es integrar los componentes productivos con el fin de incrementar la eficiencia biológica del agroecosistema y procurar el mantenimiento de la capacidad productiva y de autosuficiencia del agroecosistema.
+
+            p.mb-0 Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
+
+      .contenedor-fondo__franja(style='background-color: #FFE9E1')
+
+   
           
     .row.align-items-center.justify-content-center
       .col-lg-4
@@ -158,11 +171,22 @@
     #t_1_2.titulo-segundo
       .h2 1.2  Influencia de ecosistemas adyacentes
 
-    .row.justify-content-center.fondo-14.mb-0
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema1/img_new.svg', alt='')  
-      .col-lg-10
-        p.mb-3.m-top-6 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
-        p.mb-0 Se  muestra la integración de los componentes, así:
+
+    .contenedor-fondo.p-3
+      .contenedor-fondo__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-3
+            figure.text-center
+              img(src="@/assets/curso/images/tema1/img_destacada_2.svg"  alt='', style="width:150px; display:block; margin:auto 0 ;").mb-3
+
+          .col-lg-7(style="place-self:center")
+            p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
+            p.mb-0 Se  muestra la integración de los componentes, así:
+
+
+      .contenedor-fondo__franja(style='background-color: #CFDBD2')
+
+    
 
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top.mb-0.cs
@@ -182,31 +206,73 @@
     .row.d-none.d-lg-block
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
         .col-7.col-lg-3.mb-3
-            img(src='@/assets/curso/images/tema1/tj_1.svg').mb-3
-            .jumbotron-7.p-3
-              p.mb-0 EFICIENCIA  BIOLÓGICA
+            img(src='@/assets/curso/images/tema1/tj_1.svg').mb-4
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center.mt-3 #[b EFICIENCIA  BIOLÓGICA]
         .col-7.col-lg-3.mb-3
             img(src='@/assets/curso/images/tema1/tj_2.svg').mb-2
-            .jumbotron-7.p-3
-              p.mb-0 AUTORREGULACIÓN DEL AGROECOSISTEMA
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+               p.mb-0.text-center #[b AUTORREGULACIÓN DEL AGROECOSISTEMA]
 
         .col-7.col-lg-3.mb-3
             img(src='@/assets/curso/images/tema1/tj_3.svg').mb-4
-            .jumbotron-7.p-3
-              p.mb-0 MANTENIMIENTO DE LA CAPACIDAD PRODUCTIVA
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center #[b MANTENIMIENTO DE LA CAPACIDAD PRODUCTIVA]
         
         .col-7.col-lg-3.mb-3
-            img(src='@/assets/curso/images/tema1/tj_4.svg').mb-2
-            .jumbotron-7.p-3
-              p.mb-0 PRESERVAR LA BIODIVERSIDAD
+            img(src='@/assets/curso/images/tema1/tj_4.svg').mb-3
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center.mt-3 #[b PRESERVAR LA BIODIVERSIDAD]
 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top.mb-0.cs
-    .row.align-items-center.justify-content-center.my-5.d-block.d-lg-none
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-17.m-top.mb-0.cs
+    .row.align-items-center.justify-content-center.my-5.d-block.d-lg-none.mb-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/info_movil.png').mb-3
+          img(src='@/assets/curso/images/tema1/info.svg').mb-3
+
+    
+    .row.d-block.d-lg-none
+      .row.align-items-center.justify-content-center.mb-5
+          .col-lg-4
+            hr.t 
+            .jumbotron.p-1
+                h3.text-center.text-white Como resultado genera
+            hr.t
+
+    .row.d-block.d-lg-none
+      .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+        .col-5.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_1.svg').mb-4
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center.text-small.mt-3 #[b EFICIENCIA  BIOLÓGICA]
+        .col-5.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_2.svg').mb-2
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+               p.mb-0.text-center.text-small #[b AUTORREGULACIÓN DEL AGROECOSISTEMA]
+
+      .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
+        .col-5.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_3.svg').mb-4
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center.text-small #[b MANTENIMIENTO DE LA CAPACIDAD PRODUCTIVA]
+        
+        .col-5.col-lg-3.mb-3
+            img(src='@/assets/curso/images/tema1/tj_4.svg').mb-3
+            .jumbotron-7.p-3.h-100
+              .row.align-items-center.justify-content-center
+                p.mb-0.text-center.text-small.mt-3 #[b PRESERVAR LA BIODIVERSIDAD]
+
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs
+
+
 
     .row.align-items-center.justify-content-star.ps-2.mb-5(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-5.py-3
@@ -223,13 +289,13 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
         .row.justify-content-center.align-items-star
-          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-5
+          .col-4-md-2.col-lg.mb-5.mb-lg-0.mb-5
             img.py-0(src='@/assets/curso/images/tema1/back_slyder_1.svg')
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-5 Inventario de recursos del territorio.
           
-          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-3
+          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-5
             img.py-0(src='@/assets/curso/images/tema1/back_slyder_2.svg')
             .bg-1.h-100.py-0.m-top-3
               .p-4
@@ -245,7 +311,7 @@
       .col-lg-12
         .jumbotron-2.p-2
           p.mb-0 Nota. Tomada de FAO (1997). 
-   
+    
 
 
 

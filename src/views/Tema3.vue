@@ -386,12 +386,18 @@
     #t_3_3.titulo-segundo
       .h2 3.3  Normativa ambiental
 
-    
-    .row.justify-content-center.fondo-16.mb-3.p-3
-      .col-lg-2.col-3.mb-lg-0.mb-3: img(data-aos='zoom-in')(src='@/assets/curso/images/tema3/ico_new.svg', alt='').mt-3  
-      .col-lg-10
-        p.mt-5 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
+    .contenedor-fondo.p-3
+      .contenedor-fondo__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-3
+            figure
+              img(src="@/assets/curso/images/tema3/img_destacada_5.svg"  alt='', style="width:120px; display:block; margin:auto 0 ;").mb-2
 
+          .col-lg-7
+            p.mb-3.mt-3 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
+
+      .contenedor-fondo__franja(style='background-color: #FFE9E1')
+  
 
     .row.align-items-center.justify-content-center
       .col-lg-11
