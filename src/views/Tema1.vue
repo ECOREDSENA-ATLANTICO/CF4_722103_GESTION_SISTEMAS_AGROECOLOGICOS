@@ -255,7 +255,7 @@
             img(src='@/assets/curso/images/tema1/tj_2.svg').mb-2
             .jumbotron-7.p-3.h-100
               .row.align-items-center.justify-content-center
-               p.mb-0.text-center.text-small #[b AUTORREGULACIÓN DEL AGROECOSISTEMA]
+               p.mb-0.text-center.text-small.m-left-4 #[b AUTORREGULACIÓN DEL AGROECOSISTEMA]
 
       .row.align-items-center.justify-content-center.mb-5(data-aos="fade-down")
         .col-5.col-lg-3.mb-3

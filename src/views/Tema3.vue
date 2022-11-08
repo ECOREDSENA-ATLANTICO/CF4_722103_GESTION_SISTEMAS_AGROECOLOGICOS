@@ -89,7 +89,7 @@
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-8(data-aos="fade-left") 
-        .jumbotron-8.p-2 
+        .jumbotron-8.p-1 
           h3.text-white.text-center CRONOGRAMA Y ACTIVIDADES DE MANEJO AGROECOLÓGICO 
 
     .row.align-items-center.justify-content-center.fondo-9.my-5
@@ -160,7 +160,6 @@
       .col-lg-10(data-aos="fade")
         .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
           table
-            caption Nota. Tomada de Astier (2007).
             thead
               tr
                 th.th-1  Atributos 
@@ -247,7 +246,10 @@
                     li 
                       i.fas.fa-circle.th-4
                       | Dependencia de recursos externos
-
+      .row.mb-5
+        .col-lg-12
+          .jumbotron-10.p-2
+            p.mb-0 <b>Nota. Tomada de Astier (2007).</b>  
 
       p.mb-3 A partir de las fortalezas y debilidades del sistema, se procede a definir los indicadores asociados al modelo de desarrollo agroecológico; observe algunos ejemplos al respecto de algunos indicadores:
 
@@ -257,7 +259,6 @@
   
     .tabla-a.color-acento-botones.mb-5(data-aos="zoom-in-up") 
       table
-        caption(style="font-weight:500;background-color:#F8F8F8;") Nota. Tomada de Alfonzo et al. (2008). 
         thead(style="border:0")
           tr(style="background-color:#60876C;")
             th.text-center.text-white(style="font-size:18px;border:2;") Atributos
@@ -310,6 +311,12 @@
           tr(style="background-color:#fff;")
             td.p-4 Nivel de participación comunitaria.
             td.p-4 % de asistencias a reuniones de consejos comunales.
+    .row.mb-5
+      .col-lg-12
+        .jumbotron-10.p-2
+          p.mb-0 <b>Nota. Tomada de Alfonzo et al. (2008).</b>  
+
+          
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.m-top.mb-0.cs
     .row.align-items-center.justify-content-center.p-3
       .col-lg-12(data-aos="zoom-in-up")  
