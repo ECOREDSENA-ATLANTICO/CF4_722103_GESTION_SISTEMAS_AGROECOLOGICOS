@@ -253,13 +253,12 @@
               h3.text-white Tabla 2
               p.mb-1.text-white Principios agroecológicos y líneas de transición hacia un sistema agroalimentario sostenible con sus diferentes escalas de aplicación
             .col-3.col-md-auto
-              a.boton(:href="obtenerLink('downloads/Tabla2.pdf')" target="_blank")
+              a.boton.m-left-3(:href="obtenerLink('downloads/Tabla2.pdf')" target="_blank")
                 span Descargar 
-                .row
-                  .col-auto
+                  .col-2.col-md-1
                     img(src="@/assets/curso/images/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
-    
+            
 
     .contenedor-fondo.p-3
       .contenedor-fondo__contenido
@@ -308,7 +307,7 @@
                 td.text-center.th-2 Sistema agroalimentario
 
         .col-lg-12.mt-3
-          .jumbotron-2.p-2
+          .jumbotron-2.p-2.mb-3
             p.mb-0 Nota. Tomada de FAO (2021, p. 27-28).
 
     .contenedor-hojas(style='background-color: #EFF5D6').p-4.mb-5
