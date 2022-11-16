@@ -89,8 +89,8 @@
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-8(data-aos="fade-left") 
-        .jumbotron-8.p-1 
-          h3.text-white.text-center CRONOGRAMA Y ACTIVIDADES DE MANEJO AGROECOLÓGICO 
+        .jumbotron-8.p-1
+          h3.text-white.text-center.mb-0 CRONOGRAMA Y ACTIVIDADES DE MANEJO AGROECOLÓGICO 
 
     .row.align-items-center.justify-content-center.fondo-9.my-5
       .col-lg-10(data-aos="fade-left") 

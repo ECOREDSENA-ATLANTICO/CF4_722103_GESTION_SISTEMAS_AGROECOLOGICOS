@@ -147,6 +147,10 @@
 
 .m-top-6
   margin-top: 65px
+
+
+.m-top-7
+  margin-top: -165px !important
 .t
   color: #CC846B
 
@@ -305,8 +309,9 @@ td, th
   @media (max-width: 992px)
     height: 100% !important
   @media (max-width: 768px)
-    width: auto !important
+    width: 100%
     height: auto !important
+    margin-left: 5px
   @media (max-width: 576px)
     background-repeat: no-repeat
     height: auto !important
@@ -349,7 +354,7 @@ td, th
 .bg_grad-01
   background-color: #EFF5D6
   background-repeat: no-repeat
-  background-size: cover
+  background-size: 90% !important
   @media (max-width: 992px)
     width: 100%
     margin-left: -24px
@@ -536,6 +541,7 @@ td, th
 .jumbotron-8
   background-color: #0B481E
   border-radius: 20px
+  
 .bg-1
   background-color: #CEE284
   border-radius: 20px !important
@@ -727,14 +733,15 @@ td, th
 .bord_rad-tarboton
   .tarjeta--boton.color-secundario:hover
   border-radius: 10px
-  height: 102px
-  width: 240px
+  height: 132px !important
+  width: 240px !important
   @media screen and ( max-width: 428px)
     width: 345px
   @media (min-width: $bp-min-sm) and (max-width: $bp-max-md) 
-    width: 285px 
+    width: 285px  !important
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-    width: 207px
+    width: 207px !important
+    margin-left: 150px !important
 
 .tarjeta--boton 
   border-radius: 20px
@@ -747,10 +754,17 @@ td, th
   background-color: #FFD3C3
  
 .m_tar-boton
-    margin-left: -4%
-    margin-right: 0%
-    @media (max-width: $bp-max-md) 
-      margin-left: 0%
+  margin-left: -4%
+  margin-right: 0%
+  @media (max-width: $bp-max-md) 
+    margin-left: 0%
+  @media (max-width: 768px)
+    margin-left: 105px
+  @media (max-width: 576px)
+    margin-left: 45px
+  @media (max-width: 412px)
+    margin-left: 15%
+    
 
 .tableContainer  
   width: 5% !important

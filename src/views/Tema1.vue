@@ -183,13 +183,10 @@
             p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
             p.mb-0 Se  muestra la integración de los componentes, así:
 
-
       .contenedor-fondo__franja(style='background-color: #CFDBD2')
 
-    
-
-
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top.mb-0.cs
+  
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top-7.mb-0.cs
     .row.align-items-center.justify-content-center.my-5.d-none.d-lg-block.mb-5
       .col-lg-12(data-aos="fade-left") 
           img(src='@/assets/curso/images/tema1/info.svg').mb-3
@@ -289,19 +286,19 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
         .row.justify-content-center.align-items-star
-          .col-4-md-2.col-lg.mb-5.mb-lg-0.mb-5
+          .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
             img.py-0(src='@/assets/curso/images/tema1/back_slyder_1.svg')
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-5 Inventario de recursos del territorio.
           
-          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-5
+          .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
             img.py-0(src='@/assets/curso/images/tema1/back_slyder_2.svg')
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-5  Inventario de tipos de utilización del territorio y requerimientos de la plantación.
 
-          .col-4-md-4.col-lg.mb-5.mb-lg-0.mb-3
+          .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
             img.py-0(src='@/assets/curso/images/tema1/back_slyder_3.svg')
             .bg-1.h-100.py-0.m-top-3
               .p-4

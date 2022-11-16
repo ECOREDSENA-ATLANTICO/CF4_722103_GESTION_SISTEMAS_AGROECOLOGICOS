@@ -39,8 +39,8 @@
           h5 Figura 3
           span  Los 10 elementos de la agroecología
 
-    .row.justify-content-evenly.align-items-lg-stretch.mb-3.m_tar-boton(data-aos="fade-left") 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+    .row.justify-content-evenly.align-items-lg-stretch.mb-0.m_tar-boton.mb-2(data-aos="fade-left") 
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -49,7 +49,7 @@
             .col-lg-8.col-md-8.col-8.mt-0.mt-lg-3
               p.m-0 Diversidad
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -58,7 +58,7 @@
             .col-lg-8.col-md-8.col-8.mt-0.mt-lg-3
               p.m-0 Creación conjunta e intercambio de conocimientos
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-xl-3.col-xxl-4.col-md-4.col-4.mt-0.mt-lg-2
@@ -67,7 +67,7 @@
             .col-lg-8.col-xl-9.col-xxl-8.col-md-8.col-8.mt-0.mt-lg-2
               p.m-0 Sinergias
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -86,7 +86,7 @@
               p.m-0 Reciclaje
 
     .row.justify-content-evenly.align-items-lg-stretch.mb-3.m_tar-boton(data-aos="fade-left") 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -95,7 +95,7 @@
             .col-lg-8.col-md-8.col-8.mt-0.mt-lg-3
               p.m-0 Resiliencia
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -104,7 +104,7 @@
             .col-lg-8.col-md-8.col-8.mt-0.mt-lg-3
               p.m-0 Valores humanos y sociales
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -113,7 +113,7 @@
             .col-lg-8.col-md-8.col-8.mt-0.mt-lg-3
               p.m-0 Cultura y tradiciones alimentarias
 
-      .col-sm-6.col-lg-2.mb-3.mb-lg-0
+      .col-sm-10.col-lg-2.mb-3.mb-lg-0
         .tarjeta--boton.color-secundario.p-4.p-lg-2.bord_rad-tarboton
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-4.col-4.mt-0.mt-lg-3
@@ -155,21 +155,23 @@
       .col-7.col-lg-4(data-aos="fade-right") 
         img(src='@/assets/curso/images/tema2/img_3.png'  alt='').mb-5
       .col-lg-8(data-aos="fade-left")
-        p.mb-0 Estos 10 elementos son una herramienta analítica que permite que los sistemas agrícolas modernos puedan trascender y convertirse en sistemas agroalimentarios sostenibles, basados en el enfoque agroecológico, determinan las propiedades de los sistemas agrícolas y presentan consideraciones claves para el desarrollo de un entorno favorable para la agroecología. Asimismo, se constituyen en una guía para la formulación de políticas públicas para los gobiernos y demás organizaciones que promueven la agroecología como el sistema agroalimentario que permite la reducción de la pobreza y de las desigualdades, ya que no solo busca optimizar las interacciones entre la biodiversidad (animales y plantas), el ser humano y el ambiente, sino que involucra y tiene en cuenta, al mismo nivel de importancia, los aspectos sociales que deben abordarse para lograr un sistema alimentario justo y sostenible.
-
-    .row.align-items-center.justify-content-center.mb-0
+        p.mb-3 Estos 10 elementos son una herramienta analítica que permite que los sistemas agrícolas modernos puedan trascender y convertirse en sistemas agroalimentarios sostenibles, basados en el enfoque agroecológico, determinan las propiedades de los sistemas agrícolas y presentan consideraciones claves para el desarrollo de un entorno favorable para la agroecología. Asimismo, se constituyen en una guía para la formulación de políticas públicas para los gobiernos y demás organizaciones que promueven la agroecología como el sistema agroalimentario que permite la reducción de la pobreza y de las desigualdades, ya que no solo busca optimizar las interacciones entre la biodiversidad (animales y plantas), el ser humano y el ambiente, sino que involucra y tiene en cuenta, al mismo nivel de importancia, los aspectos sociales que deben abordarse para lograr un sistema alimentario justo y sostenible.
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema2/ico_13.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Video
-              p.mb-1.text-white Para ampliar la información relacionada con los 10 elementos de la agroecología, observe el siguiente video:
-              p.text-white.mb-0 Nota. Tomada de Food and Agriculture Organization of the United Nations (2022).
-            .col-3.col-md-auto
-              a.boton(:href="('https://www.youtube.com/watch?v=6Reh7c2-ewI')" target="_blank")
-                span Ver video
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema2/ico_13.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Video
+                  p.mb-1.text-white Para ampliar la información relacionada con los 10 elementos de la agroecología, observe el siguiente video:
+                  p.text-white.mb-0 Nota. Tomada de Food and Agriculture Organization of the United Nations (2022).
+                .col-sm-auto
+                  a.boton(:href="('https://www.youtube.com/watch?v=6Reh7c2-ewI')" target="_blank")
+                    span Ver video
+          
       
     .row.align-items-center.justify-content-center.mb-0    
       .col-lg-7(data-aos="fade-right") 
@@ -242,23 +244,24 @@
 
     p.mb-5 Estos principios pueden ser aplicados en diferentes escalas y son organizados a través de 3 líneas de transición o principios operacionales, que tienen como fin último la consolidación de sistemas agroalimentarios sostenibles que propendan por la seguridad alimentaria y la nutrición. Las 3 líneas de transición en las cuales están divididos los 13 principios son:
 
-
-    .row.align-items-center.justify-content-center.mb-0
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-10(data-aos="zoom-in-down")
         .tarjeta.color-custom-2.p-3.mb-5
-          .row.justify-content-center.align-items-center
-            .col-lg-2
-              img.mx-1(src="@/assets/curso/images/tema2/ico_new.svg",  alt='', style="width:100px; display:block; margin:auto 0 ;").mb-3
-            .col.mb-3.mb-sm-0
-              h3.text-white Tabla 2
-              p.mb-1.text-white Principios agroecológicos y líneas de transición hacia un sistema agroalimentario sostenible con sus diferentes escalas de aplicación
-            .col-3.col-md-auto
-              a.boton.m-left-3(:href="obtenerLink('downloads/Tabla2.pdf')" target="_blank")
-                span Descargar 
-                  .col-2.col-md-1
-                    img(src="@/assets/curso/images/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img.mx-1(src="@/assets/curso/images/tema2/ico_new.svg",  alt='', style="width:80px; display:block; margin:auto 0 ;").mb-3
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.text-white Tabla 2
+                  p.mb-1.text-white Principios agroecológicos y líneas de transición hacia un sistema agroalimentario sostenible con sus diferentes escalas de aplicación
+                .col-sm-auto
+                  a.boton.m-left-3(:href="obtenerLink('downloads/Tabla2.pdf')" target="_blank")
+                    span Descargar 
+                      .col-1.col-md-2
+                        img(src="@/assets/curso/images/tema2/Ico_download.svg",  alt='', style="width:20px; display:block; margin:auto 0 ;")
 
-            
+
 
     .contenedor-fondo.p-3
       .contenedor-fondo__contenido
