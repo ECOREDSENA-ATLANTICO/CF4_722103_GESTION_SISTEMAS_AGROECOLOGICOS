@@ -353,24 +353,8 @@ td, th
 
 .bg_grad-01
   background-color: #EFF5D6
-  background-repeat: no-repeat
-  background-size: 90% !important
-  @media (max-width: 992px)
-    width: 100%
-    margin-left: -24px
-  @media (max-width: 768px)
-    width: 100%
-    margin-left: 5px
-  @media (max-width: 576px)
-    width: 100%
-    margin-left: 2px
-  @media (max-width: 412px)
-    margin-left: -2px !important
-    background-repeat: no-repeat
-    background-size: contain
-    height: auto
-  @media (max-width: 390px)
-    margin-left: -5px !important
+  border-radius: 15px
+
 
 .horizontal-scroll
     align-items: stretch!important
@@ -476,6 +460,7 @@ td, th
 .jumbotron-3
   background-color: #EFF5D6 !important
   border-radius: 20px
+  height: 480px
 
 .jumbotron-3:hover
   background-color: #EFF5D6 !important
@@ -500,6 +485,7 @@ td, th
 .jumbotron-4
   background-color: #FFD3C3 !important
   border-radius: 20px
+  height: 480px
 
 .jumbotron-4:hover
   background-color: #FFD3C3
@@ -581,6 +567,22 @@ td, th
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   transform: translateY(-50%) rotate(90deg)
   left: 0px
+  @media (max-width: 992px)
+    background-repeat: no-repeat
+    background-size: contain
+    height: 100% !important
+  @media (max-width: 768px)
+    background-repeat: no-repeat
+    background-repeat: no-repeat
+    height: auto !important
+  @media (max-width: 576px)
+    height: auto !important
+  @media (max-width: 412px)
+    background-repeat: no-repeat
+    background-repeat: no-repeat
+    height: auto !important
+
+  
 
 .slyder-a__tipo-a .slyder-a__btn--sigt 
   transform: translateY(-50%) rotate(-90deg)
@@ -608,8 +610,8 @@ td, th
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   @media (max-width: $bp-max-sm )
-    width: 25px
-    height: 25px  
+    width: 45px
+    height: 45px  
       
 .slyder-a__bullets__item    
   @media (max-width: $bp-max-sm )
@@ -733,15 +735,12 @@ td, th
 .bord_rad-tarboton
   .tarjeta--boton.color-secundario:hover
   border-radius: 10px
-  height: 132px !important
-  width: 240px !important
   @media screen and ( max-width: 428px)
-    width: 345px
-  @media (min-width: $bp-min-sm) and (max-width: $bp-max-md) 
-    width: 285px  !important
-  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-    width: 207px !important
-    margin-left: 150px !important
+    width: auto
+  @media (max-width: $bp-max-md)
+    width: auto
+    margin-left: -45px
+    
 
 .tarjeta--boton 
   border-radius: 20px

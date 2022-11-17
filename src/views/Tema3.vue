@@ -11,8 +11,8 @@
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5.mb-lg-0.mb-3
-        .jumbotron-4.h-100.p-5(data-aos="fade-right") 
+      .col-lg-5.mb-lg-0.mb-3.h-100
+        .jumbotron-4.p-5(data-aos="fade-right") 
             .col-5.col-lg-10
             img.mb-4(src='@/assets/curso/images/tema3/ico_1.svg'  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Modelos de desarrollo agroecológicos: 
@@ -27,8 +27,8 @@
                 i.fas.fa-circle.th-4
                 | Optimización de los recursos naturales de uso agrícola.
 
-      .col-lg-5.lg-0
-        .jumbotron-3.h-100.p-5(data-aos="fade-left")
+      .col-lg-5.lg-0.h-100
+        .jumbotron-3.p-5(data-aos="fade-left")
             .col-5.col-lg-10
             img(src='@/assets/curso/images/tema3/ico_2.svg',  alt='', style="width:90px; display:block; margin:auto 0 ;")
             h3.mt-3 Objetivos de producción: 
