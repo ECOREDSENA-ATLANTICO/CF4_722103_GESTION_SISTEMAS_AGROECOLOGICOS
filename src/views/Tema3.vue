@@ -6,11 +6,11 @@
       .titulo-principal__numero 
         span 3
       h1 Cronograma y actividades del manejo agroecológico
-
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
     p.mb-5 El manejo agroecológico parte del reconocimiento de las interacciones e interrelaciones socioambientales; además, considera criterios sistémicos en el manejo, como forma de gestión de un modelo multidimensional agrícola, para lo cual se deben tener en cuenta:
 
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top.mb-0.cs
-    .row.justify-content-center.align-items-center.mb-5
+  
+    .row.justify-content-center.align-items-center.my-5
       .col-lg-5.mb-lg-0.mb-3.h-100
         .jumbotron-4.p-5(data-aos="fade-right") 
             .col-5.col-lg-10
@@ -85,7 +85,7 @@
                   i.fas.fa-circle
                   p.mb-0 Tienen viabilidad económica.
 
-    p.mb-3 Los indicadores se construyen por medio de la evaluación de agroecosistemas reales, así:
+    p.mb-5 Los indicadores se construyen por medio de la evaluación de agroecosistemas reales, así:
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-8(data-aos="fade-left") 
@@ -311,35 +311,36 @@
           tr(style="background-color:#fff;")
             td.p-4 Nivel de participación comunitaria.
             td.p-4 % de asistencias a reuniones de consejos comunales.
+  
     .row.mb-5
       .col-lg-12
         .jumbotron-10.p-2
           p.mb-0 <b>Nota. Tomada de Alfonzo et al. (2008).</b>  
 
-          
-  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.m-top.mb-0.cs
+  .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-10.m-top.mb-0.cs        
+  
     .row.align-items-center.justify-content-center.p-3
       .col-lg-12(data-aos="zoom-in-up")  
         .jumbotron-5.p-3
           p.mb-3 La medición de los indicadores se desarrolla a través de un método estadístico básico que permite establecer sus valores. Estos valores se estandarizan de acuerdo con lo establecido en la siguiente ecuación:
-          .row.align-items-center.justify-content-center.fondo-11.p-4
-            .col-lg-3
-              h3 Donde:
-              p.mb-0 <b>ND =</b> Nivel de desempeño del indicador
-              p.mb-0 <b> V </b>= Valor medido del indicador
-              p.mb-0 <b>Vmax =</b> Valor máximo del indicador
-              p.mb-0 <b>Vmin =</b> Valor mínimo del indicador
-            .col-lg-5
-              img.mt-2(src='@/assets/curso/images/tema3/formula.svg')
+
+          .contenedor-hojas-2(style='background-color: #E5EFD4').p-4.mb-5
+            .row.align-items-center.justify-content-center.p-4
+              .col-lg-3(style="place-self:center")
+                h3 Donde:
+                p.mb-0 <b>ND =</b> Nivel de desempeño del indicador
+                p.mb-0 <b> V </b>= Valor medido del indicador
+                p.mb-0 <b>Vmax =</b> Valor máximo del indicador
+                p.mb-0 <b>Vmin =</b> Valor mínimo del indicador
+              .col-lg-5
+                img.mt-2(src='@/assets/curso/images/tema3/formula.svg')
           .row.align-items-center.justify-content-center.mb-5
-            .col-lg-11
-              .jumbotron-9.p-2
+            .col-lg-12
+              .jumbotron-9-1.p-2
                 p.mb-0 Nota. Tomada de Alfonzo et al. (2008).
-
-              
- 
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
-
+    
+ 
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-12
         .row.justify-content-center.align-items-center
@@ -393,18 +394,13 @@
     #t_3_3.titulo-segundo
       .h2 3.3  Normativa ambiental
 
-    .contenedor-fondo.p-3
-      .contenedor-fondo__contenido
-        .row.justify-content-center.mb-5
-          .col-lg-3
-            figure
-              img(src="@/assets/curso/images/tema3/img_destacada_5.svg"  alt='', style="width:120px; display:block; margin:auto 0 ;").mb-2
-
-          .col-lg-7
-            p.mb-3.mt-3 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
-
-      .contenedor-fondo__franja(style='background-color: #FFE9E1')
-  
+    .rectangle_02.mb-5(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center
+        .col-auto.me-4.d-none.d-lg-flex
+          figure
+            img(src="@/assets/curso/images/tema3/img_destacada_5.svg", alt="alt")
+        .col-lg
+          p.mb-3.mt-3 El marco normativo utilizado en Colombia para la regulación, cuidado y delimitación de los recursos naturales es amplio y contempla que el aprovechamiento y uso de estos, a través de la ejecución de actividades agrícolas y pecuarias, no están exentos de la regulación, por lo cual, cada productor es responsable del uso que les dé a los recursos naturales que se encuentran en el agroecosistema.
 
     .row.align-items-center.justify-content-center
       .col-lg-11

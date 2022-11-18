@@ -171,19 +171,14 @@
     #t_1_2.titulo-segundo
       .h2 1.2  Influencia de ecosistemas adyacentes
 
-
-    .contenedor-fondo.p-3
-      .contenedor-fondo__contenido
-        .row.justify-content-center.mb-5
-          .col-lg-3
-            figure.text-center
-              img(src="@/assets/curso/images/tema1/img_destacada_2.svg"  alt='', style="width:150px; display:block; margin:auto 0 ;").mb-3
-
-          .col-lg-7(style="place-self:center")
-            p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
-            p.mb-0 Se  muestra la integración de los componentes, así:
-
-      .contenedor-fondo__franja(style='background-color: #CFDBD2')
+    .rectangle_03.mb-4(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center
+        .col-auto.me-4.d-none.d-lg-flex
+          figure
+            img(src="@/assets/curso/images/tema1/img_destacada_2.svg", alt="alt")
+        .col-lg
+          p.mb-3 El diseño debe imitar la estructura y la función de los ecosistemas naturales adyacentes, con el fin de diseñar un sistema productivo con una alta diversidad de especies y un suelo biológicamente activo.
+          p.mb-0 Se  muestra la integración de los componentes, así:
 
   
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top-7.mb-0.cs

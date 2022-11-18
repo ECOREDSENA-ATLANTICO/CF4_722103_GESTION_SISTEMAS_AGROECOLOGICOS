@@ -150,7 +150,7 @@
 
 
 .m-top-7
-  margin-top: -165px !important
+  margin-top: -90px !important
 .t
   color: #CC846B
 
@@ -274,12 +274,12 @@ td, th
 .fondo-11
   background-image: url("../assets/curso/images/tema3/back_form.svg") !important
   background-repeat: no-repeat
-  background-size: 100% 100%
+  background-size: 100% 100% !important 
   @media (max-width: $bp-max-md) 
     background-image: none !important
     background-color: #E5EFD4
-  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
-    background-size: 100% 100%
+  @media (min-width: $bp-min-lg) 
+    background-size: cover
   
   
 
@@ -306,6 +306,9 @@ td, th
 .fondo-13
   background-color: #ECEAEA !important
   border-radius: 30px !important
+  background-size: 100% 
+  margin-left: 30px 
+  margin-right: 30px
   @media (max-width: 992px)
     height: 100% !important
   @media (max-width: 768px)
@@ -532,21 +535,35 @@ td, th
   background-color: #CEE284
   border-radius: 20px !important
   height: 310px !important
-  @media (max-width: 992px)
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
     background-repeat: no-repeat
     background-size: contain
-    height: 100% !important
+    height: 330px !important
   @media (max-width: 768px)
     background-repeat: no-repeat
     background-repeat: no-repeat
-    height: auto !important
+    height: 300px !important
   @media (max-width: 576px)
     background-repeat: no-repeat
-    height: auto !important
-  @media (max-width: 412px)
+    height: 300px !important
+  @media (max-width: $bp-max-md)
     background-repeat: no-repeat
     background-repeat: no-repeat
-    height: auto !important
+    height: 300px !important
+
+.jumbotron-9-1
+  background-color: #F6F6F6
+  width: 1160px
+  margin-top: -42px
+  @media (max-width: $bp-max-md) 
+    width: 465px
+    margin-left: -10px !important
+  @media (min-width: $bp-min-lg) 
+    width: 800px
+    margin-left: -2px !important
+  @media (min-width: $bp-min-xl) 
+    width: 1160px
+    margin-left: -2px !important
 
 .jumbotron-9
   background-color: #F6F6F6
@@ -563,6 +580,18 @@ td, th
 
 .bg_3
   background-color: #F3F9FF
+
+.contenedor-hojas-2
+  position: relative
+  border-top-left-radius: 90px !important
+  height: auto
+  &::before
+    position: absolute
+    content: url(../assets/curso/images/tema3/jb_4.svg)
+    top: 0
+    left: 0
+    z-index: 2 !important
+    transform: translate(550%, 10%) !important
 
 .slyder-a__tipo-a .slyder-a__btn--atrs 
   transform: translateY(-50%) rotate(90deg)
@@ -589,11 +618,11 @@ td, th
   right: -5px
 
 .slyder-a__bullets__item--active 
-    background-color: #ADCE32 
+    background-color: #ADCE32 !important
     border: 0    
 
 .slyder-a__bullets__item 
-    background-color: #ADCE32
+    background-color: #DEEBB1
     border: 0
 
 
@@ -728,9 +757,59 @@ td, th
     background-repeat: no-repeat
     z-index: 0
 
+.rectangle_01
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: -1%
+    transform: translateY(-50%)
+    width: 30%
+    height: 130%
+    background-color: #CEDAD2
+
+.rectangle_02
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: -1%
+    transform: translateY(-50%)
+    width: 30%
+    height: 130%
+    background-color: #FFE9E1
+
+.rectangle_03
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    left: -1%
+    transform: translateY(-50%)
+    width: 30%
+    height: 130%
+    background-color: #CFDBD2
+
 .onTop
   position: relative
   z-index: 10
+
+.m-left
+  @media (max-width: 412px)
+    margin-left: 95px
+
+
+.br--01
+  border-radius: 15px
 
 .bord_rad-tarboton
   .tarjeta--boton.color-secundario:hover
