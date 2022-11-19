@@ -819,7 +819,9 @@ td, th
   @media (max-width: $bp-max-md)
     width: auto
     margin-left: -45px
-    
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: auto
+    margin-left: -45px
 
 .tarjeta--boton 
   border-radius: 20px
@@ -828,6 +830,11 @@ td, th
   height: 100%
   @media (max-width: $bp-max-md) 
     width: 100% 
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    width: calc( 100% + 2rem)
+    height: 100px
+    font-size: 12px
+  
 .tarjeta--boton.color-secundario:hover
   background-color: #FFD3C3
  
