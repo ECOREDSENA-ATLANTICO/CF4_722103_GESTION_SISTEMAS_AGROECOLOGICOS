@@ -35,7 +35,7 @@
 
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
-        .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
+        .titulo-sexto.color-acento-contenido.mb-0.m-left-1(data-aos="zoom-in-right")
           h5 Figura 3
           span  Los 10 elementos de la agroecología
 

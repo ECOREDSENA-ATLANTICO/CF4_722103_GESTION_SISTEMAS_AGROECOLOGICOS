@@ -103,6 +103,9 @@
   color: #FFD3C3 !important
   font-size: 12px
 
+.m-left-1
+  margin-left: 30px !important
+
 .m-left-2
   margin-left: 80px !important
 
@@ -841,14 +844,14 @@ td, th
   background-color: #FFD3C3
  
 .m_tar-boton
-  margin-left: -4%
-  margin-right: 0%
+  margin-left: 0px
+  margin-right: 0px
   @media (min-width: $bp-min-xl) 
     margin-left: -20px !important
-  @media (min-width: $bp-min-lg) 
-    margin-left: 5px !important
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    margin-left: 15px !important
   @media (max-width: $bp-max-md) 
-    margin-left: 0%
+    margin-right: -30px !important
   @media (max-width: $bp-max-md) and (max-width: $bp-max-xl)
     margin-left: 90px 
   @media (max-width: 768px)
