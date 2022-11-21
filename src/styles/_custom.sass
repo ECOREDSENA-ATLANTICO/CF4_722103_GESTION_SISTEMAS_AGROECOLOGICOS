@@ -822,6 +822,8 @@ td, th
   @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
     width: auto
     margin-left: -45px
+  
+
 
 .tarjeta--boton 
   border-radius: 20px
@@ -841,8 +843,14 @@ td, th
 .m_tar-boton
   margin-left: -4%
   margin-right: 0%
+  @media (min-width: $bp-min-xl) 
+    margin-left: -20px !important
+  @media (min-width: $bp-min-lg) 
+    margin-left: 5px !important
   @media (max-width: $bp-max-md) 
     margin-left: 0%
+  @media (max-width: $bp-max-md) and (max-width: $bp-max-xl)
+    margin-left: 90px 
   @media (max-width: 768px)
     margin-left: 105px
   @media (max-width: 576px)
