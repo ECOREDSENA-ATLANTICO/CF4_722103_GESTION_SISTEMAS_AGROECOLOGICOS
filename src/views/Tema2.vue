@@ -271,8 +271,7 @@
           figure
             img(src="@/assets/curso/images/tema2/img_destacada_3.svg", alt="alt")
         .col-lg
-          p.mb-3 Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología (ver Figura 7). Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la Figura 7, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario.
-
+          p.mb-3 Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología. Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la siguiente tabla, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario:
 
     .row.align-items-center.justify-content-center.p-4
       .col-lg-10

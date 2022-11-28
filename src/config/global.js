@@ -167,8 +167,7 @@ export default {
     {
       referencia:
         'Gobernación de la Provincia de Santa Fe. (2019). Guía Básica para la Planificación y Manejo Agroecológico de Cultivos. ',
-      link:
-        'https://www.santafe.gov.ar/index.php/web/content/download/254524/1339209/file/Guia%20para%20el%20manejo%20agroec.%20de%20cultivos.pdf',
+      link: 'http://www.insitu.org.ar/PDF/Guia_Manejo_Agroecologico.pdf',
     },
     {
       referencia:
