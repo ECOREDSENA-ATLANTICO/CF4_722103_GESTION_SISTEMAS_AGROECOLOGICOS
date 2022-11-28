@@ -376,7 +376,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 5
+          h5 Figura 8
           span Diagrama AMOEBA
 
 

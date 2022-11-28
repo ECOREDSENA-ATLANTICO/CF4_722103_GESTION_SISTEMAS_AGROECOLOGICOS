@@ -278,6 +278,12 @@
 
         p.mb-0 La zonificación agroecológica presenta elementos necesarios para su aplicación, dentro de los cuales se encuentran los siguientes:
 
+    .row.align-items-center.justify-content-center.mb-3
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
+          h5 Figura 4
+          span  Elementos para el desarrollo de la zonificación agroecológico
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0
         .row.justify-content-center.align-items-star

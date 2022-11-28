@@ -36,7 +36,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0.m-left-1(data-aos="zoom-in-right")
-          h5 Figura 3
+          h5 Figura 5
           span  Los 10 elementos de la agroecología
 
 
@@ -139,7 +139,7 @@
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
-          h5 Figura 4
+          h5 Figura 6
           span Interacciones e interrelaciones entre los 10 elementos de la agroecología.
 
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.m-top-1.mb-0.cs
@@ -177,7 +177,7 @@
       
     .row.align-items-center.justify-content-center.mb-0    
       .col-lg-7(data-aos="fade-right") 
-        p.mb-3 De acuerdo con las propuestas de organizaciones privadas, intergubernamentales, del tercer sector y la academia, el panel de expertos de alto nivel sobre Seguridad Alimentaria y Nutrición (HLPE) estableció 13 principios para orientar la transformación de los sistemas alimentarios, los cuales se relacionan directamente con los principios agroecológicos para el manejo sostenible de los agroecosistemas y los 10 elementos de la agroecología, los cuales puede ver a través de las siguientes figuras:
+        p.mb-3 De acuerdo con las propuestas de organizaciones privadas, intergubernamentales, del tercer sector y la academia, el panel de expertos de alto nivel sobre Seguridad Alimentaria y Nutrición (HLPE) estableció 13 principios para orientar la transformación de los sistemas alimentarios, los cuales se relacionan directamente con los principios agroecológicos para el manejo sostenible de los agroecosistemas y los 10 elementos de la agroecología, los cuales puede ver a través de las siguientes tablas:
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_4.png'  alt='')
@@ -271,7 +271,7 @@
           figure
             img(src="@/assets/curso/images/tema2/img_destacada_3.svg", alt="alt")
         .col-lg
-          Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología (ver Figura 7). Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la Figura 7, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario.
+          p.mb-3 Dado que el proceso de transición agroecológica comprende diversidad de factores y es particular para cada unidad productiva, se han apropiado 5 niveles de transición considerados por Gliessman, fundamentados en la visión holística y multidimensional de la agroecología (ver Figura 7). Sin embargo, es importante enunciar que, para evaluar la evolución de la transición agroecológica, no siempre es necesario avanzar de forma secuencial, como se muestra en la Figura 7, por lo que estos niveles dependen del contexto del agroecosistema y del sistema agroalimentario.
 
 
     .row.align-items-center.justify-content-center.p-4
@@ -300,7 +300,7 @@
                 td.text-center.th-2 Agroecosistema y Sistema agroalimentario
               tr
                 td.text-center.th-3  Nivel 4 (Re-conectar)
-                td.text-center.th-3  Reestablecer una conexión más directa entre los que producen y los que consumen alimentos, con el objeto de reestablecer una cultura de sustentabilidad, que considera las interacciones entre todos los componentes del sistema alimentario. 
+                td.text-center.th-3  Restablecer una conexión más directa entre los que producen y los que consumen alimentos, con el objeto de restablecer una cultura de sustentabilidad, que considera las interacciones entre todos los componentes del sistema alimentario. 
                 td.text-center.th-3 Sistema agroalimentario
               tr
                 td.text-center.th-2  Nivel 5 (Re-estructurar)
