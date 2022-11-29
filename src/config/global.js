@@ -291,13 +291,13 @@ export default {
       },
       {
         nombre: 'Diego E. Acevedo Guevara',
-        cargo: 'Diseñadora instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios CIES- Regional Norte de Santander',
       },
       {
         nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Asesora metodológica',
+        cargo: 'Asesor metodológica',
         centro: 'Centro de Diseño y Metrología  - Distrito Capital',
       },
       {
