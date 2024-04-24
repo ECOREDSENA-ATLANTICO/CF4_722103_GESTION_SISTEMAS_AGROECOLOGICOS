@@ -145,22 +145,17 @@
           .col-lg-7
             p.mb-3 El objetivo del diseño agroecológico es integrar los componentes productivos con el fin de incrementar la eficiencia biológica del agroecosistema y procurar el mantenimiento de la capacidad productiva y de autosuficiencia del agroecosistema.
 
-            p.mb-0 Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
+            p.mb-0.text-bold Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
 
       .contenedor-fondo__franja(style='background-color: #FFE9E1')
 
-   
-          
-    .row.align-items-center.justify-content-center
-      .col-lg-4
-        .jumbotron.p-1.mb-3
-            h3.text-center.text-white Diseños agroecológicos 
-        h3.text-center Objetivos - metas - límites
-
-            
-    .row.align-items-center.justify-content-center.my-5.d-none.d-lg-block.mb-5
-      .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_3.png').mb-3
+    .row.align-items-center.justify-content-center.my-5mb-5
+      .col-lg-10(data-aos="fade-left") 
+        .titulo-sexto.color-acento-contenido.mb-3.my-5(data-aos="zoom-in-right")
+          h5 Figura 3
+          span Objetivos - metas - límites
+      
+        img(src='@/assets/curso/images/tema1/fig_3.png').mb-3
 
     .row.align-items-center.justify-content-center.my-5.d-block.d-lg-none
       .col-lg-12(data-aos="fade-left") 
@@ -282,7 +277,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-right")
           h5 Figura 4
-          span  Elementos para el desarrollo de la zonificación agroecológico
+          span  Elementos para el desarrollo de la zonificación agroecológica
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-right")
       .col-lg-12.lg-0

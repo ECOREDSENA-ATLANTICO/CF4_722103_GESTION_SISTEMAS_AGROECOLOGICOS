@@ -28,7 +28,7 @@
     
     .row.align-items-center.justify-content-center.mb-5     
       .col-lg-7(data-aos="fade-right") 
-        p.mb-3 La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), en aras de incentivar y promover los procesos de transformación de los sistemas agrícolas y alimentarios hacia un sistema agroalimentario más sostenible a diferentes escalas y lograr el cumplimiento de los Objetivos de Desarrollo Sostenible (ODS), en especial el ODS 2 llamado “Hambre Cero”, ha establecido 10 elementos de la agroecología bajo los cuales se precisan las prácticas básicas y criterios de innovación que pueden permitir la transición a sistemas agroalimentarios más sostenibles, los cuales se encuentran interrelacionados y son interdependientes, como se muestra a continuación:
+        p.mb-3 La Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), en aras de incentivar y promover los procesos de transformación de los sistemas agrícolas y alimentarios hacia un sistema agroalimentario más sostenible a diferentes escalas y lograr el cumplimiento de los Objetivos de Desarrollo Sostenible (ODS), en especial el ODS 2 llamado “Hambre Cero”, ha establecido 10 elementos de la agroecología bajo los cuales se precisan las prácticas básicas y criterios de innovación que pueden permitir la transición a sistemas agroalimentarios más sostenibles, los cuales se encuentran interrelacionados y son interdependientes, como se relaciona a continuación:
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_2.png'  alt='')
@@ -168,7 +168,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.text-white Video
-                  p.mb-1.text-white Para ampliar la información relacionada con los 10 elementos de la agroecología, observe el siguiente video:
+                  p.mb-1.text-white Para ampliar la información relacionada con los 10 elementos de la agroecología, ir al siguiente enlace:
                   p.text-white.mb-0 Nota. Tomada de Food and Agriculture Organization of the United Nations (2022).
                 .col-sm-auto
                   a.boton(:href="('https://www.youtube.com/watch?v=6Reh7c2-ewI')" target="_blank").float-end
@@ -177,7 +177,7 @@
       
     .row.align-items-center.justify-content-center.mb-0    
       .col-lg-7(data-aos="fade-right") 
-        p.mb-3 De acuerdo con las propuestas de organizaciones privadas, intergubernamentales, del tercer sector y la academia, el panel de expertos de alto nivel sobre Seguridad Alimentaria y Nutrición (HLPE) estableció 13 principios para orientar la transformación de los sistemas alimentarios, los cuales se relacionan directamente con los principios agroecológicos para el manejo sostenible de los agroecosistemas y los 10 elementos de la agroecología, los cuales puede ver a través de las siguientes tablas:
+        p.mb-3 De acuerdo con las propuestas de organizaciones privadas, intergubernamentales, del tercer sector y la academia, el panel de expertos de alto nivel sobre Seguridad Alimentaria y Nutrición (HLPE) estableció 13 principios para orientar la transformación de los sistemas alimentarios, los cuales se relacionan directamente con los principios agroecológicos para el manejo sostenible de los agroecosistemas y los 10 elementos de la agroecología, los cuales se detallan a través de las siguientes tablas:
 
       .col-7.col-lg-5(data-aos="fade-left")
         img(src='@/assets/curso/images/tema2/img_4.png'  alt='')
@@ -314,7 +314,7 @@
 
       .row.mb-0
         .col-lg-7.mb-3.mb-lg-0.p-3(style="place-self:center")
-          p.mb-0.mx-5.mt-3 Las transiciones agroecológicas se desarrollan a diferentes escalas espaciales y temporales; por tanto, es importante visibilizar las posibilidades y limitaciones de la masificación de la agroecología, para que sea aprovechada por un número creciente de productores/as y consumidores/as, en territorios cada vez más amplios. Vea, entonces, lo que el siguiente video explica al respecto:
+          p.mb-0.mx-5.mt-3 Las transiciones agroecológicas se desarrollan a diferentes escalas espaciales y temporales; por tanto, es importante visibilizar las posibilidades y limitaciones de la masificación de la agroecología, para que sea aprovechada por un número creciente de productores/as y consumidores/as, en territorios cada vez más amplios. En el siguiente video se explica al respecto:
         .col-lg-5.mb-3.mb-lg-0.ps-4.pe-1(style="place-self:center")
           figure.text-center
             img.mt-4(src="@/assets/curso/images/tema2/img_new.svg" data-aos="fade-right" style="display:inline;position:relative;max-width:480px;")

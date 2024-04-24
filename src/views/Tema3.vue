@@ -251,7 +251,7 @@
           .jumbotron-10.p-2
             p.mb-0 <b>Nota. Tomada de Astier (2007).</b>  
 
-      p.mb-3 A partir de las fortalezas y debilidades del sistema, se procede a definir los indicadores asociados al modelo de desarrollo agroecológico; observe algunos ejemplos al respecto de algunos indicadores:
+      p.mb-3 A partir de las fortalezas y debilidades del sistema, se procede a definir los indicadores asociados al modelo de desarrollo agroecológico; observe algunos ejemplos al respecto de algunos indicadores a continuación:
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Tabla 5
@@ -370,7 +370,7 @@
       .col-lg-10
         p.mb-3 La interpretación de los resultados se realiza de mayor a menor, siendo 5 un modelo de producción con el mayor grado de sostenibilidad y 1 el de menor grado de avance.
 
-        p.mb-3 Finalmente, los resultados obtenidos para cada uno de los parámetros evaluados se deben presentar a través de un mapa multicriterio tipo AMOEBA. Este diagrama representa el grado de sostenibilidad asociado al modelo de producción agroecológico. Obsérvelo:
+        p.mb-3 Finalmente, los resultados obtenidos para cada uno de los parámetros evaluados se deben presentar a través de un mapa multicriterio tipo AMOEBA. Este diagrama representa el grado de sostenibilidad asociado al modelo de producción agroecológico. Explicito a continuación:
 
 
     .row.align-items-center.justify-content-center.mb-3
