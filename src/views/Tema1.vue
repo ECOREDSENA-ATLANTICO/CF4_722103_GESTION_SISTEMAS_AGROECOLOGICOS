@@ -179,7 +179,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-4.m-top-7.mb-0.cs
     .row.align-items-center.justify-content-center.my-5.d-none.d-lg-block.mb-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/info.svg').mb-3
+          img(src='@/assets/curso/images/tema1/info2.svg').mb-3
 
     
     .row.d-none.d-lg-block
