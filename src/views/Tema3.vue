@@ -267,7 +267,7 @@
           .jumbotron-10.p-2
             p.mb-0 <b>Nota. Tomada de Astier (2007).</b>  
 
-      p.mb-3 A partir de las fortalezas y debilidades del sistema, se procede a definir los indicadores asociados al modelo de desarrollo agroecológico; observe algunos ejemplos al respecto de algunos indicadores a continuación:
+      p.mb-3 A partir de las fortalezas y debilidades del sistema, se procede a definir los indicadores asociados al modelo de desarrollo agroecológico; algunos ejemplos al respecto de algunos indicadores a continuación:
 
     .titulo-sexto.color-acento-contenido.mt-5
       h5 Tabla 5
