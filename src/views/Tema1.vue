@@ -145,7 +145,7 @@
           .col-lg-7
             p.mb-3 El objetivo del diseño agroecológico es integrar los componentes productivos con el fin de incrementar la eficiencia biológica del agroecosistema y procurar el mantenimiento de la capacidad productiva y de autosuficiencia del agroecosistema.
 
-            p.mb-0.text-bold Los diseños agroecológicos se deben delimitar como un todo, observe cómo:
+            p.mb-0.text-bold Los diseños agroecológicos se deben delimitar como un todo, a continuación:
 
       .contenedor-fondo__franja(style='background-color: #FFE9E1')
 

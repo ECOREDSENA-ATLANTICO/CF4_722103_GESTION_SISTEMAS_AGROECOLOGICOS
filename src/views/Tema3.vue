@@ -65,25 +65,25 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Miden cambios y progresos.
+                  | Miden cambios y progresos.
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Identifican necesidades de mejora.
+                  | Identifican necesidades de mejora.
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Miden riesgos.
+                  | Miden riesgos.
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Hay eficiencia en el sistema productivo.
+                  | Hay eficiencia en el sistema productivo.
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Incrementan los servicios socioeconómicos y ecológicos.
+                  | Incrementan los servicios socioeconómicos y ecológicos.
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Previenen la degradación de la biodiversidad. 
+                  | Previenen la degradación de la biodiversidad. 
                 li 
                   i.fas.fa-circle
-                  p.mb-0 Tienen viabilidad económica.
+                  | Tienen viabilidad económica.
 
     p.mb-5 Los indicadores se construyen por medio de la evaluación de agroecosistemas reales, así:
 
@@ -167,7 +167,11 @@
      
             tbody
               tr
-                td Productividad
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-circle.th-6
+                      | Productividad
                 td 
                   ul.lista-ul--color
                     li 
@@ -205,7 +209,11 @@
                       | Prevención de riesgos
 
               tr
-                td Adaptabilidad
+                td  
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-circle.th-6
+                      | Adaptabilidad
 
                 td 
                   ul.lista-ul--color
@@ -220,7 +228,11 @@
                       | Proceso de capacitación
                    
               tr
-                td Equidad
+                td 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-circle.th-6
+                      |  Equidad
                 td 
                   ul.lista-ul--color
                     li 
@@ -234,7 +246,11 @@
                       | Participación efectiva
    
               tr
-                td Autosuficiencia 
+                td  
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-circle.th-6
+                      | Autosuficiencia 
                 td 
                   ul.lista-ul--color
                     li 
@@ -352,19 +368,19 @@
             ul.lista-ul--color
               li
                 i.fas.fa-circle.th-4
-                p.mb-0 De 81 a 100 % equivalen a 5
+                | De 81 a 100 % equivalen a 5
               li 
                 i.fas.fa-circle.th-4
-                p.mb-0 De 61 a 80 % equivalen a 4
+                | De 61 a 80 % equivalen a 4
               li 
                 i.fas.fa-circle.th-4
-                p.mb-0 De 41 a 60 % equivalen a 3
+                | De 41 a 60 % equivalen a 3
               li 
                 i.fas.fa-circle.th-4
-                p.mb-0 De 21 a 40 % equivalen a 2
+                | De 21 a 40 % equivalen a 2
               li 
                 i.fas.fa-circle.th-4
-                p.mb-0 De 0 a 20 % equivalen a 1
+                | De 0 a 20 % equivalen a 1
             
     .row.align-items-center.justify-content-center.mb-3
       .col-lg-10

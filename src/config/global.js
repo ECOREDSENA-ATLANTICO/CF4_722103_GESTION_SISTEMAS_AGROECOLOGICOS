@@ -300,11 +300,7 @@ export default {
           cargo: 'Experto Temático',
           centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
-        {
-          nombre: 'Íngrid Natalia Lozano Muñoz ',
-          cargo: 'Experta Temática',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima ',
-        },
+
         {
           nombre: 'Diego E. Acevedo Guevara ',
           cargo: 'Diseñador Instruccional  ',
