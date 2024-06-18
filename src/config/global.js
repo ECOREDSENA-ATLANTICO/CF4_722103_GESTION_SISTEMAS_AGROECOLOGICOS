@@ -176,12 +176,6 @@ export default {
     },
     {
       referencia:
-        'López-Ridaura, S., Masera, O. y Astier, M. (2001). Evaluando la sostenibilidad de los sistemas agrícolas integrados: El marco MESMIS. Leisa Revista de Agroecología, 16(4)',
-      link:
-        'https://www.leisa-al.org/web/index.php/volumen-16-numero-4/2340-evaluando-la-sostenibilidad-de-los-sistemas-agricolas-integrados-el-marco-mesmis',
-    },
-    {
-      referencia:
         'Noguera-Talavera, Á., Salmerón, F. y Reyes-Sánchez, N. (2019). Bases teórico-metodológicas para el diseño de sistemas agroecológicos. Revista de la Facultad de Ciencias Agrarias UNCUYO, 51(1).',
       link: 'http://www.scielo.org.ar/pdf/refca/v51n1/v51n1a20.pdf',
     },
