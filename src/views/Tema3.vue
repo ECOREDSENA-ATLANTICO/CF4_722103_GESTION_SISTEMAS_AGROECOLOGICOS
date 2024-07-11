@@ -398,7 +398,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-10(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema3/fig_2.svg')
+          img(src='@/assets/curso/images/tema3/fig_2.svg',alt="En el diagrama AMOEBA, se relaciona a  y se representa el grado de sostenibilidad asociado al modelo de producción agroecológico de la siguiente manera: Grado 1: •Potencial de innovación •Nivel de participación comunitaria •Eficiencia en el sistema productivo •Nivel de ingresos Grado 2: •Independencia de insumos externos •Acceso al agua •Autosuficiencia alimentaria Grado 3: •Uso potencial de la tierra •Equidad en la toma de decisiones Grado 4: •Nivel de agrobiodiversidad Grado 5: •Fertilidad del suelo •Distribución del ingreso")
 
     .row.align-items-center.justify-content-center
       .col-lg-10

@@ -99,7 +99,7 @@
 
     .row.align-items-center.justify-content-center.my-5
       .col-lg-12(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_1.svg')
+          img(src='@/assets/curso/images/tema1/fig_1.svg', alt="Muestra, los elementos conceptuales para el diseño agroecológico, que  se explican, a continuación: Las prácticas basadas en: saberes locales, tradiciones, principios de sostenibilidad, cultura campesina, integración familiar, seguridad alimentaria, cohesión social. Tecnológicamente con: bajo uso de insumos, alta diversidad funcional, productividad, resiliencia, eficiencia. Útiles como: herramientas de planificación, tecnología, visión de bienestar,estructura ecológica, políticas, mercados. Se debe procurar que los productos producidos sean usados para la alimentación de la familia productora y para los mercados locales.")
 
     .row.mb-5
       .col-lg-12
@@ -120,7 +120,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-2.m-top-1.mb-0.cs
     .row.align-items-center.justify-content-center.my-5
       .col-lg-10(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema1/fig_2.png').mb-3
+          img(src='@/assets/curso/images/tema1/fig_2.png', alt="El diseño agroecológico, está organizado de la siguiente manera como se muestra en la  imagen de una vivienda con diferentes espacios: especies menores, cultivo de habichuela, cultivo asociado, hortalizas, plantas ornamentales, lago comunitario, porqueriza, frutales, cultivo de ñame, jaguey.").mb-3
 
 
       .col-lg-10
@@ -155,7 +155,7 @@
           h5 Figura 3
           span Objetivos - metas - límites
       
-        img(src='@/assets/curso/images/tema1/fig_3.png').mb-3
+        img(src='@/assets/curso/images/tema1/fig_3.png',alt="Se muestra los diseños agroecológicos que  se deben delimitar ,en 5 sub temas:1. Objetivo: Integrar los componentes productivos con el fin de incrementar la eficacia biológica del agroecosistema y la auto eficiencia del agroecosistema.2.  Visualiza: Sistema productivo, predio, la finca,  el medio ambiente.3. Actividades a implementar dependen de: disponibilidad de recursos, condiciones ambientales, limitaciones del mercado, valores del productor.4. Integración de los diferentes elementos de acuerdo con las necesidades  y metas de producción.5. El limite del diseño agroecologico es el sistema finca, el diseño y sistema productivo dependen de este.").mb-3
 
     .row.align-items-center.justify-content-center.my-5.d-block.d-lg-none
       .col-lg-12(data-aos="fade-left") 
@@ -283,19 +283,19 @@
       .col-lg-12.lg-0
         .row.justify-content-center.align-items-star
           .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
-            img.py-0(src='@/assets/curso/images/tema1/back_slyder_1.svg')
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_1.svg', alt="A continuación tenemos los elementos para el desarrollo de la zonificación agroecológico:-Debemos hacer inventario de recursos del territorio.")
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-5 Inventario de recursos del territorio.
           
           .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
-            img.py-0(src='@/assets/curso/images/tema1/back_slyder_2.svg')
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_2.svg', alt="Realizar un inventario de tipos de utilización del territorio y requerimientos de la plantación.")
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-5  Inventario de tipos de utilización del territorio y requerimientos de la plantación.
 
           .col-md-8.col-lg-4.mb-5.mb-lg-0.mb-5
-            img.py-0(src='@/assets/curso/images/tema1/back_slyder_3.svg')
+            img.py-0(src='@/assets/curso/images/tema1/back_slyder_3.svg', alt="Debemos hacer una evaluación de la aptitud del territorio, incluyendo el cálculo de la cosecha máxima posible y comparación entre limitaciones y requerimientos.")
             .bg-1.h-100.py-0.m-top-3
               .p-4
                 p.mb-0.text-center.m-top-4 Evaluación de la aptitud del territorio, incluyendo el cálculo de la cosecha máxima posible y la comparación entre limitaciones y requerimientos.

@@ -145,7 +145,7 @@
   .container.bg-white.px-md-5.px-3.py-2.container-top.fondo-5.m-top-1.mb-0.cs
     .row.align-items-center.justify-content-center.my-5
       .col-lg-10(data-aos="fade-left") 
-          img(src='@/assets/curso/images/tema2/fig_1.svg')
+          img(src='@/assets/curso/images/tema2/fig_1.svg', alt="Se muestra la interrelación entre los  elementos de la agroecología se relacionan a continuación:  gobernanza responsable, reciclaje, eficiencia, valores humanos y sociales, diversidad, sinergias, creación conjunta e intercambio de conocimientos, resiliencia, cultura y tradiciones alimentarias, economía circular y solidaria.")
   .container.bg-white.p-md-5.p-4.container-bottom.mt-0.cs.mb-5 
     .row.mb-5
       .col-lg-12

@@ -176,6 +176,12 @@ export default {
     },
     {
       referencia:
+        'López-Ridaura, S., Masera, O. y Astier, M. (2001). Evaluando la sostenibilidad de los sistemas agrícolas integrados: El marco MESMIS. Leisa Revista de Agroecología, 6(4)',
+      link:
+        'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://kapixawa.files.wordpress.com/2009/09/evalsostenibilidad.pdf&ved=2ahUKEwj1yJiK7JCHAxXQGtAFHXwUD38QFnoECBEQAQ&usg=AOvVaw0YnVVBsVZMQd-6Z0OSRX93',
+    },
+    {
+      referencia:
         'Noguera-Talavera, Á., Salmerón, F. y Reyes-Sánchez, N. (2019). Bases teórico-metodológicas para el diseño de sistemas agroecológicos. Revista de la Facultad de Ciencias Agrarias UNCUYO, 51(1).',
       link: 'http://www.scielo.org.ar/pdf/refca/v51n1/v51n1a20.pdf',
     },
@@ -206,6 +212,10 @@ export default {
         'Redprodepaz: Saberes que transforman territorios. (2017). Diseño Agroecológico [Video]. YouTube',
       link:
         'https://www.youtube.com/watch?v=TnzzSONvduU&ab_channel=Redprodepaz%3ASaberesquetransformanterritorios',
+    },
+    {
+      referencia: 'UPME, 2021.Normativa ambiental',
+      link: 'https://www1.upme.gov.co/',
     },
   ],
   glosario: [

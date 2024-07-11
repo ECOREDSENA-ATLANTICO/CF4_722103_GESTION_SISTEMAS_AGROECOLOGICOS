@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/images/tema3/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/images/tema3/sintesis.svg", alt="El mapa conceptual que sintetiza el componente formativo se distribuye de la siguiente manera: diseño y planeación del agroecosistema para transición agroecológica, contempla el  marco normativo ambiental, criterios, elementos conceptuales, media por niveles de transición, se logra a través de practicas estratégicas.")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
